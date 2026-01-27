@@ -12,7 +12,7 @@ config_version=5
 
 config/name="wwise-godot-integration-cs-bindings"
 run/main_scene="uid://dl0l8mlcjmjfv"
-config/features=PackedStringArray("4.5", "C#", "Mobile")
+config/features=PackedStringArray("4.5", "Mobile")
 config/icon="res://icon.svg"
 
 [autoload]

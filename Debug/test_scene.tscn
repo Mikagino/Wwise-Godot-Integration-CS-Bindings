@@ -1,9 +1,9 @@
 [gd_scene load_steps=5 format=3 uid="uid://dl0l8mlcjmjfv"]
 
-[ext_resource type="Script" uid="uid://b8h63lvv1kiff" path="res://TestSound.cs" id="1_uhqqe"]
+[ext_resource type="Script" uid="uid://b8h63lvv1kiff" path="res://Debug/TestSound.cs" id="1_uhqqe"]
 [ext_resource type="WwiseBank" uid="uid://dlimnoof4afwq" path="res://Wwise/resources/SoundBank/{31A621E2-C76A-4F11-A673-D654DFE7D47A}.tres" id="2_coq8p"]
 [ext_resource type="WwiseEvent" uid="uid://bjs8gsqoo83it" path="res://Wwise/resources/Event/{42CB097C-A228-4D5B-853A-D2064E1E3F10}.tres" id="2_sasra"]
-[ext_resource type="Script" uid="uid://d3rkndrogx0ac" path="res://eventStuff.cs" id="3_coq8p"]
+[ext_resource type="Script" uid="uid://d3rkndrogx0ac" path="res://Debug/eventStuff.cs" id="3_coq8p"]
 
 [node name="Node" type="Node"]
 script = ExtResource("1_uhqqe")
