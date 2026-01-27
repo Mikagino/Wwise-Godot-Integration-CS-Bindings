@@ -14,9 +14,6 @@ public partial class WwiseRTPC : WwiseBaseType
 
 	private new static readonly StringName NativeName = new StringName("WwiseRTPC");
 
-	[Obsolete("Wrapper types cannot be constructed with constructors (it only instantiate the underlying WwiseRTPC object), please use the Instantiate() method instead.")]
-	protected WwiseRTPC() { }
-
 	private static CSharpScript _wrapperScriptAsset;
 
 	/// <summary>

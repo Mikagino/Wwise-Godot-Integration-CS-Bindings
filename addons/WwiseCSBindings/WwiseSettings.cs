@@ -14,9 +14,6 @@ public partial class WwiseSettings : RefCounted
 
 	private new static readonly StringName NativeName = new StringName("WwiseSettings");
 
-	[Obsolete("Wrapper types cannot be constructed with constructors (it only instantiate the underlying WwiseSettings object), please use the Instantiate() method instead.")]
-	protected WwiseSettings() { }
-
 	private static CSharpScript _wrapperScriptAsset;
 
 	/// <summary>

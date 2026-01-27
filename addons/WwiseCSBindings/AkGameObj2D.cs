@@ -14,9 +14,6 @@ public partial class AkGameObj2D : Node2D
 
 	private new static readonly StringName NativeName = new StringName("AkGameObj2D");
 
-	[Obsolete("Wrapper types cannot be constructed with constructors (it only instantiate the underlying AkGameObj2D object), please use the Instantiate() method instead.")]
-	protected AkGameObj2D() { }
-
 	private static CSharpScript _wrapperScriptAsset;
 
 	/// <summary>

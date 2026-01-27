@@ -14,9 +14,6 @@ public partial class AkEnvironmentData : GodotObject
 
 	private new static readonly StringName NativeName = new StringName("AkEnvironmentData");
 
-	[Obsolete("Wrapper types cannot be constructed with constructors (it only instantiate the underlying AkEnvironmentData object), please use the Instantiate() method instead.")]
-	protected AkEnvironmentData() { }
-
 	private static CSharpScript _wrapperScriptAsset;
 
 	/// <summary>

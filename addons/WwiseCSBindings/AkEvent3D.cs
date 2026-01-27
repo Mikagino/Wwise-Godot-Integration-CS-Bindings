@@ -14,9 +14,6 @@ public partial class AkEvent3D : Node3D
 
 	private new static readonly StringName NativeName = new StringName("AkEvent3D");
 
-	[Obsolete("Wrapper types cannot be constructed with constructors (it only instantiate the underlying AkEvent3D object), please use the Instantiate() method instead.")]
-	protected AkEvent3D() { }
-
 	private static CSharpScript _wrapperScriptAsset;
 
 	/// <summary>

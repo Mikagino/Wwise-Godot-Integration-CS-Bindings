@@ -14,9 +14,6 @@ public partial class WwiseAcousticTexture : WwiseBaseType
 
 	private new static readonly StringName NativeName = new StringName("WwiseAcousticTexture");
 
-	[Obsolete("Wrapper types cannot be constructed with constructors (it only instantiate the underlying WwiseAcousticTexture object), please use the Instantiate() method instead.")]
-	protected WwiseAcousticTexture() { }
-
 	private static CSharpScript _wrapperScriptAsset;
 
 	/// <summary>

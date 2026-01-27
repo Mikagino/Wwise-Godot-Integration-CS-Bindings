@@ -14,9 +14,6 @@ public partial class AkMidiPost : RefCounted
 
 	private new static readonly StringName NativeName = new StringName("AkMidiPost");
 
-	[Obsolete("Wrapper types cannot be constructed with constructors (it only instantiate the underlying AkMidiPost object), please use the Instantiate() method instead.")]
-	protected AkMidiPost() { }
-
 	private static CSharpScript _wrapperScriptAsset;
 
 	/// <summary>

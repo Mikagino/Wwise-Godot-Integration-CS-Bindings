@@ -14,9 +14,6 @@ public partial class WwiseTrigger : WwiseBaseType
 
 	private new static readonly StringName NativeName = new StringName("WwiseTrigger");
 
-	[Obsolete("Wrapper types cannot be constructed with constructors (it only instantiate the underlying WwiseTrigger object), please use the Instantiate() method instead.")]
-	protected WwiseTrigger() { }
-
 	private static CSharpScript _wrapperScriptAsset;
 
 	/// <summary>

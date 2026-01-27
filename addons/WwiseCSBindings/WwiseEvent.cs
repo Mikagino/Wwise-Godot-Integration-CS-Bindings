@@ -14,9 +14,6 @@ public partial class WwiseEvent : WwiseBaseType
 
 	private new static readonly StringName NativeName = new StringName("WwiseEvent");
 
-	[Obsolete("Wrapper types cannot be constructed with constructors (it only instantiate the underlying WwiseEvent object), please use the Instantiate() method instead.")]
-	protected WwiseEvent() { }
-
 	private static CSharpScript _wrapperScriptAsset;
 
 	/// <summary>

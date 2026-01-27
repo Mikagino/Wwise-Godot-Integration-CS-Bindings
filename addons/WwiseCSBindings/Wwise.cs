@@ -14,21 +14,18 @@ public partial class Wwise : GodotObject
 
 	private new static readonly StringName NativeName = new StringName("Wwise");
 
-	[Obsolete("Wrapper types cannot be constructed with constructors (it only instantiate the underlying Wwise object), please use the Instantiate() method instead.")]
-	protected Wwise() { }
-
 	private static CSharpScript _wrapperScriptAsset;
 
-	private static GodotObject _instance;
+	private static Wwise _instance;
 
-    private static GodotObject Instance
+    protected static Wwise Instance
     {
         get
         {
             if (_instance == null)
             {
                 if (Engine.HasSingleton("Wwise"))
-                    _instance = Engine.GetSingleton("Wwise");
+					_instance = Bind(Engine.GetSingleton("Wwise"));
                 else
                     GD.PrintErr("Wwise singleton not loaded!");
             }
@@ -70,16 +67,6 @@ public partial class Wwise : GodotObject
 		godotObject.SetScript(_wrapperScriptAsset);
 		return (Wwise)InstanceFromId(instanceId);
 	}
-
-	/// <summary>
-	/// Creates an instance of the GDExtension <see cref="Wwise"/> type, and attaches a wrapper script instance to it.
-	/// </summary>
-	/// <returns>The wrapper instance linked to the underlying GDExtension "Wwise" type.</returns>
-	// public new static Wwise Instantiate()
-	// {
-	// 	Instance = Bind(ClassDB.Instantiate(NativeName).As<GodotObject>());
-	// 	return Instance;
-	// }
 
 	public new static class GDExtensionMethodName
 	{

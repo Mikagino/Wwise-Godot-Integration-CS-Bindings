@@ -14,9 +14,6 @@ public partial class AkSwitch : Node
 
 	private new static readonly StringName NativeName = new StringName("AkSwitch");
 
-	[Obsolete("Wrapper types cannot be constructed with constructors (it only instantiate the underlying AkSwitch object), please use the Instantiate() method instead.")]
-	protected AkSwitch() { }
-
 	private static CSharpScript _wrapperScriptAsset;
 
 	/// <summary>

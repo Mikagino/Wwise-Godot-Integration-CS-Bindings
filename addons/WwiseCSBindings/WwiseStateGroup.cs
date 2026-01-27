@@ -14,9 +14,6 @@ public partial class WwiseStateGroup : WwiseBaseType
 
 	private new static readonly StringName NativeName = new StringName("WwiseStateGroup");
 
-	[Obsolete("Wrapper types cannot be constructed with constructors (it only instantiate the underlying WwiseStateGroup object), please use the Instantiate() method instead.")]
-	protected WwiseStateGroup() { }
-
 	private static CSharpScript _wrapperScriptAsset;
 
 	/// <summary>

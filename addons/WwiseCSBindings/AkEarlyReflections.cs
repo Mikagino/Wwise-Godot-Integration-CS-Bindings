@@ -14,9 +14,6 @@ public partial class AkEarlyReflections : Node
 
 	private new static readonly StringName NativeName = new StringName("AkEarlyReflections");
 
-	[Obsolete("Wrapper types cannot be constructed with constructors (it only instantiate the underlying AkEarlyReflections object), please use the Instantiate() method instead.")]
-	protected AkEarlyReflections() { }
-
 	private static CSharpScript _wrapperScriptAsset;
 
 	/// <summary>

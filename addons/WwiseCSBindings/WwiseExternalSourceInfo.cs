@@ -14,9 +14,6 @@ public partial class WwiseExternalSourceInfo : RefCounted
 
 	private new static readonly StringName NativeName = new StringName("WwiseExternalSourceInfo");
 
-	[Obsolete("Wrapper types cannot be constructed with constructors (it only instantiate the underlying WwiseExternalSourceInfo object), please use the Instantiate() method instead.")]
-	protected WwiseExternalSourceInfo() { }
-
 	private static CSharpScript _wrapperScriptAsset;
 
 	/// <summary>

@@ -14,9 +14,6 @@ public partial class AkUtils : GodotObject
 
 	private new static readonly StringName NativeName = new StringName("AkUtils");
 
-	[Obsolete("Wrapper types cannot be constructed with constructors (it only instantiate the underlying AkUtils object), please use the Instantiate() method instead.")]
-	protected AkUtils() { }
-
 	private static CSharpScript _wrapperScriptAsset;
 
 	/// <summary>

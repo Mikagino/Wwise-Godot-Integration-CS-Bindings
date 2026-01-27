@@ -14,9 +14,6 @@ public partial class WwisePlatformInfo : Resource
 
 	private new static readonly StringName NativeName = new StringName("WwisePlatformInfo");
 
-	[Obsolete("Wrapper types cannot be constructed with constructors (it only instantiate the underlying WwisePlatformInfo object), please use the Instantiate() method instead.")]
-	protected WwisePlatformInfo() { }
-
 	private static CSharpScript _wrapperScriptAsset;
 
 	/// <summary>

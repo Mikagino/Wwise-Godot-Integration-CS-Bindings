@@ -14,9 +14,6 @@ public partial class AkPortal : Area3D
 
 	private new static readonly StringName NativeName = new StringName("AkPortal");
 
-	[Obsolete("Wrapper types cannot be constructed with constructors (it only instantiate the underlying AkPortal object), please use the Instantiate() method instead.")]
-	protected AkPortal() { }
-
 	private static CSharpScript _wrapperScriptAsset;
 
 	/// <summary>

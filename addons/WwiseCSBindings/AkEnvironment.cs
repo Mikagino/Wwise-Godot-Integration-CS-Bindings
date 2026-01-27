@@ -14,9 +14,6 @@ public partial class AkEnvironment : Area3D
 
 	private new static readonly StringName NativeName = new StringName("AkEnvironment");
 
-	[Obsolete("Wrapper types cannot be constructed with constructors (it only instantiate the underlying AkEnvironment object), please use the Instantiate() method instead.")]
-	protected AkEnvironment() { }
-
 	private static CSharpScript _wrapperScriptAsset;
 
 	/// <summary>

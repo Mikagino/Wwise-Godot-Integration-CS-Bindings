@@ -14,9 +14,6 @@ public partial class WwiseBank : WwiseBaseType
 
 	private new static readonly StringName NativeName = new StringName("WwiseBank");
 
-	[Obsolete("Wrapper types cannot be constructed with constructors (it only instantiate the underlying WwiseBank object), please use the Instantiate() method instead.")]
-	protected WwiseBank() { }
-
 	private static CSharpScript _wrapperScriptAsset;
 
 	/// <summary>

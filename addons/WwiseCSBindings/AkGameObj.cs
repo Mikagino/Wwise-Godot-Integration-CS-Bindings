@@ -13,10 +13,7 @@ public partial class AkGameObj : Node
 {
 
 	private new static readonly StringName NativeName = new StringName("AkGameObj");
-
-	[Obsolete("Wrapper types cannot be constructed with constructors (it only instantiate the underlying AkGameObj object), please use the Instantiate() method instead.")]
-	protected AkGameObj() { }
-
+	
 	private static CSharpScript _wrapperScriptAsset;
 
 	/// <summary>

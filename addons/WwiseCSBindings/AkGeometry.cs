@@ -14,9 +14,6 @@ public partial class AkGeometry : Node3D
 
 	private new static readonly StringName NativeName = new StringName("AkGeometry");
 
-	[Obsolete("Wrapper types cannot be constructed with constructors (it only instantiate the underlying AkGeometry object), please use the Instantiate() method instead.")]
-	protected AkGeometry() { }
-
 	private static CSharpScript _wrapperScriptAsset;
 
 	/// <summary>

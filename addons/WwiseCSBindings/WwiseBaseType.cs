@@ -14,9 +14,6 @@ public abstract partial class WwiseBaseType : Resource
 
 	private new static readonly StringName NativeName = new StringName("WwiseBaseType");
 
-	[Obsolete("Wrapper types cannot be constructed with constructors (it only instantiate the underlying WwiseBaseType object), please use the Instantiate() method instead.")]
-	protected WwiseBaseType() { }
-
 	private static CSharpScript _wrapperScriptAsset;
 
 	/// <summary>
