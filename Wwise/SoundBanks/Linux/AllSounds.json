@@ -1,0 +1,917 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Linux",
+  "BasePlatform": "Linux",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3278463154",
+    "Type": "User",
+    "GUID": "{31A621E2-C76A-4F11-A673-D654DFE7D47A}",
+    "Language": "SFX",
+    "Hash": "{94D9E20C-E662-1446-E22B-06141EE533CA}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\AllSounds",
+    "ShortName": "AllSounds",
+    "Path": "AllSounds.bnk",
+    "Media": [
+     {
+      "Id": "20704354",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Player\\Cargo Ding2 Render 0.wav",
+      "CachePath": "65/{65415A0D-D406-661A-2E40-737A325DEBB1}.wem"
+     },
+     {
+      "Id": "35691389",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "CarLo\\CarLo CarLoStart1 Render 0.wav",
+      "CachePath": "B2/{B2E28E92-DCCD-8B4F-9766-4F9235F07385}.wem"
+     },
+     {
+      "Id": "54224265",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI\\Button Click1 Render 0.wav",
+      "CachePath": "3B/{3B77C81D-4D32-9749-85FD-DAD511A6F229}.wem"
+     },
+     {
+      "Id": "97371159",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "CarLo\\CarLo CarLoStart3 Render 0.wav",
+      "CachePath": "CB/{CB754DE5-FD96-9AE4-DF5E-B1CBBF0516DE}.wem"
+     },
+     {
+      "Id": "112645882",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Player\\Cargo Impact2 Render 0.wav",
+      "CachePath": "A4/{A411B497-4B3A-240E-1302-B2008710DB39}.wem"
+     },
+     {
+      "Id": "120415481",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Music\\DrumsA1.wav",
+      "CachePath": "E2/{E2D44E5B-9887-F634-2029-81F0F12F493A}.wem"
+     },
+     {
+      "Id": "122128424",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Music\\MarmonyA2.wav",
+      "CachePath": "4F/{4F9F13EA-3734-A3C0-8FBA-ACB2C1299C25}.wem"
+     },
+     {
+      "Id": "130781828",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "CarLo\\CarLo CarLoStart6 Render 0.wav",
+      "CachePath": "68/{68B4F2F1-484B-B510-3DAC-DCE7D2622D99}.wem"
+     },
+     {
+      "Id": "137445215",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Player\\Cargo Chink2 Render 0.wav",
+      "CachePath": "58/{58D75C31-9CAF-7F87-8B29-6656719677B5}.wem"
+     },
+     {
+      "Id": "156634002",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "DeathStinger Slap1 Render 0.wav",
+      "CachePath": "74/{74FD70A6-892D-385A-C86E-AD58F5AF88B8}.wem"
+     },
+     {
+      "Id": "167388237",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI\\TextBoop.wav",
+      "CachePath": "06/{066E5E7D-0A36-E375-3EB1-1F4AE7B9729C}.wem"
+     },
+     {
+      "Id": "194061589",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "DeathStinger LoseSound Render 0.wav",
+      "CachePath": "F6/{F69EE000-A488-539D-3A1A-46880EBABA4F}.wem"
+     },
+     {
+      "Id": "213154523",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Board\\Board WindWeak Render 0.wav",
+      "CachePath": "00/{00EAF62F-D35E-A846-E37D-088BB2DF26E3}.wem"
+     },
+     {
+      "Id": "229135163",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Music\\HarmonyA1.wav",
+      "CachePath": "DF/{DFB4CF36-BF32-BA8F-DF92-5531E9B69269}.wem"
+     },
+     {
+      "Id": "249522476",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI\\StartGame DoorBass Render 0.wav",
+      "CachePath": "7A/{7A45A813-AC4D-7E54-ED56-73892C6CBA05}.wem"
+     },
+     {
+      "Id": "273035188",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Board\\Board JumpImpact2 Render 0.wav",
+      "CachePath": "74/{74206538-3ECB-5AF4-265E-8B673F71B908}.wem"
+     },
+     {
+      "Id": "310633218",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI\\Button Hover2 Render 0.wav",
+      "CachePath": "46/{4692FD9B-A7AB-691B-B654-2561AACBE0F8}.wem"
+     },
+     {
+      "Id": "319162199",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Music\\MelodyB1.wav",
+      "CachePath": "F9/{F908E152-1BF2-7D84-F4BD-CF3F2ABDB882}.wem"
+     },
+     {
+      "Id": "333430689",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Player\\Cargo Impact1 Render 0.wav",
+      "CachePath": "9D/{9DAC9962-9312-2F93-369F-63789F5A3150}.wem"
+     },
+     {
+      "Id": "344289599",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Music\\HarmonyB1.wav",
+      "CachePath": "11/{111A3B1E-13B3-6451-186D-9A4555A96042}.wem"
+     },
+     {
+      "Id": "347114582",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Music\\MelodyA1.wav",
+      "CachePath": "BA/{BA941A5C-A1B2-F692-E466-A1A918801F29}.wem"
+     },
+     {
+      "Id": "442551353",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Board\\Board SlideWoodLayer1 Render 0.wav",
+      "CachePath": "4E/{4EA2B099-9318-78D0-DBED-DF26774AFCE0}.wem"
+     },
+     {
+      "Id": "513200761",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "DeathStinger Slap2 Render 0.wav",
+      "CachePath": "68/{68E148F2-CAE8-4327-051F-37D80A18B255}.wem"
+     },
+     {
+      "Id": "513392093",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Music\\DrumsB1.wav",
+      "CachePath": "E2/{E2A2A10A-9DA6-77F7-40B5-B11DB9F62E78}.wem"
+     },
+     {
+      "Id": "569395891",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Player\\Cargo Ding1 Render 0.wav",
+      "CachePath": "F3/{F39B263D-484C-3455-9AB2-11790D95D2A6}.wem"
+     },
+     {
+      "Id": "616451808",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Player\\Cargo BreathOut1 Render 0.wav",
+      "CachePath": "F3/{F3EA0581-55BB-60B2-ADE1-222350970DF5}.wem"
+     },
+     {
+      "Id": "621717411",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Board\\Board Sparks Render 0.wav",
+      "CachePath": "70/{70D1CCD6-6388-4FD2-62CB-0D096DDFA932}.wem"
+     },
+     {
+      "Id": "655484981",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "CarLo\\CarLo CarLoStart2 Render 0.wav",
+      "CachePath": "11/{11691DCC-A305-86F2-819D-BE7B5BF6D899}.wem"
+     },
+     {
+      "Id": "718040466",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Board\\Board SlideWoodLayer3 Render 0.wav",
+      "CachePath": "BF/{BFF7EC88-1C49-ED09-42A9-9DFCC903072E}.wem"
+     },
+     {
+      "Id": "752888768",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "CarLo\\CarLo CarLoStart4 Render 0.wav",
+      "CachePath": "84/{84702E19-D579-1A8F-899A-3A14EC3DAA8F}.wem"
+     },
+     {
+      "Id": "760759983",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Board\\Board JumpImpact1 Render 0.wav",
+      "CachePath": "6F/{6F14C898-A475-6909-3A03-8E130AF0EFA5}.wem"
+     },
+     {
+      "Id": "761476863",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Board\\Board SlideWoodLayer2 Render 0.wav",
+      "CachePath": "22/{2259C89A-954C-BECE-E72E-B329F1BF72CB}.wem"
+     },
+     {
+      "Id": "770952301",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Board\\Board WindStrong Render 0.wav",
+      "CachePath": "03/{033E81D4-73D6-C503-52D1-BAA247463281}.wem"
+     },
+     {
+      "Id": "771392887",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Music\\MelodyA2.wav",
+      "CachePath": "52/{52E93DE8-202B-22FE-5238-DBAD63E75EB9}.wem"
+     },
+     {
+      "Id": "833413488",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI\\Button Hover1 Render 0.wav",
+      "CachePath": "98/{98DBF0A4-11C9-DC38-74DE-C52D7A2A507D}.wem"
+     },
+     {
+      "Id": "865613869",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI\\StartGame DoorBass Render 0.wav",
+      "CachePath": "B7/{B7F911CD-D19E-C6B9-A03B-00E6A7F932D7}.wem"
+     },
+     {
+      "Id": "895176466",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Music\\DrumsA3.wav",
+      "CachePath": "30/{30BE7A7B-B9A8-229C-E952-4129A9762C43}.wem"
+     },
+     {
+      "Id": "912841231",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Board\\Board WindMedium Render 0.wav",
+      "CachePath": "66/{66352F47-4653-2637-D190-48C836FCCDE7}.wem"
+     },
+     {
+      "Id": "954317587",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MissionDoneStinger.wav",
+      "CachePath": "4C/{4C1321E0-B0C4-9E63-CF9E-D66965535205}.wem"
+     },
+     {
+      "Id": "959268110",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Player\\Cargo BreathOut2 Render 0.wav",
+      "CachePath": "47/{4769BA85-AC77-71D9-D8D5-DDEC220EF7BA}.wem"
+     },
+     {
+      "Id": "964537798",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Music\\DrumsA2.wav",
+      "CachePath": "12/{129680EC-1DCE-4D8A-131E-B6EE7B0B9539}.wem"
+     },
+     {
+      "Id": "969675646",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI\\StartGame DoorImpact Render 0.wav",
+      "CachePath": "85/{8560A60A-7F6C-BF3A-E7ED-84EFC0A6AA12}.wem"
+     },
+     {
+      "Id": "1012314860",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Player\\Cargo Chink1 Render 0.wav",
+      "CachePath": "5C/{5C9D7593-D08F-D83A-D402-B808377149FA}.wem"
+     },
+     {
+      "Id": "1021935907",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Player\\Cargo Snap1 Render 0.wav",
+      "CachePath": "D1/{D1158AC8-CF36-7D28-9778-7FD2F1E3F242}.wem"
+     },
+     {
+      "Id": "1041621212",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI\\StartGame DoorImpact Render 0.wav",
+      "CachePath": "A4/{A46D933A-971B-45E3-9D9F-8C62A3BC1AA4}.wem"
+     },
+     {
+      "Id": "1044600737",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI\\StartGame OpenDoor Render 0.wav",
+      "CachePath": "F8/{F88BBB2C-3B06-6A43-C287-4C43B4F53D76}.wem"
+     },
+     {
+      "Id": "1053510957",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Player\\Cargo Snap2 Render 0.wav",
+      "CachePath": "AD/{AD039715-8141-D164-8887-05E3D7C8F311}.wem"
+     },
+     {
+      "Id": "1063731710",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "CarLo\\CarLo CarLoStart5 Render 0.wav",
+      "CachePath": "99/{994EF3E6-EAA7-527C-B260-DE3D9D33B38C}.wem"
+     }
+    ],
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "43038348",
+       "Name": "Time Stretch (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Board\\Board_Slide\\Board Sparks Render 0\\[Effect Slot [0]: (Time Stretch)]\\Time Stretch (Custom)",
+       "GUID": "{F6FAE2BA-9B7D-43C7-9AA3-3408F6E6EB6F}",
+       "LibName": "Wwise Time Stretch",
+       "LibId": "8519683"
+      },
+      {
+       "Id": "341188668",
+       "Name": "Time Stretch (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Board\\Board_Slide\\Board SlideWoodLayer1 Render 0\\[Effect Slot [0]: (Time Stretch)]\\Time Stretch (Custom)",
+       "GUID": "{6DE4D873-E45B-4B6D-B8BC-013701C85719}",
+       "LibName": "Wwise Time Stretch",
+       "LibId": "8519683"
+      },
+      {
+       "Id": "378120445",
+       "Name": "Time Stretch (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Board\\Board_Impact\\StartGame DoorImpact Render 0_01\\[Effect Slot [0]: (Time Stretch)]\\Time Stretch (Custom)",
+       "GUID": "{A6E75FFC-6613-46B6-8890-6FD2B971DFE8}",
+       "LibName": "Wwise Time Stretch",
+       "LibId": "8519683"
+      },
+      {
+       "Id": "439952464",
+       "Name": "Time Stretch (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Board\\Board_Jump\\StartGame DoorImpact Render 0\\[Effect Slot [0]: (Time Stretch)]\\Time Stretch (Custom)",
+       "GUID": "{0349FECF-1F05-4A59-83A6-C585A252FDB5}",
+       "LibName": "Wwise Time Stretch",
+       "LibId": "8519683"
+      },
+      {
+       "Id": "444787157",
+       "Name": "Time Stretch (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Board\\Board_Impact\\StartGame DoorImpact Render 0\\[Effect Slot [0]: (Time Stretch)]\\Time Stretch (Custom)",
+       "GUID": "{D8B0F4EE-1077-43F2-8080-F65D098C7229}",
+       "LibName": "Wwise Time Stretch",
+       "LibId": "8519683"
+      },
+      {
+       "Id": "664798260",
+       "Name": "Time Stretch (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Board\\Board_Jump\\StartGame DoorImpact Render 0_01\\[Effect Slot [0]: (Time Stretch)]\\Time Stretch (Custom)",
+       "GUID": "{15F3DC3D-D486-48AA-BF13-357CF2B7ADB8}",
+       "LibName": "Wwise Time Stretch",
+       "LibId": "8519683"
+      },
+      {
+       "Id": "938936662",
+       "Name": "Time Stretch (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Board\\Board_Slide\\[Effect Slot [0]: (Time Stretch)]\\Time Stretch (Custom)",
+       "GUID": "{4AA9272D-D641-4A6E-9B9B-217AA9DB9E1E}",
+       "LibName": "Wwise Time Stretch",
+       "LibId": "8519683"
+      }
+     ],
+     "ShareSets": [
+      {
+       "Id": "1820854077",
+       "Name": "Noise_Gate_Fast_Attack",
+       "ObjectPath": "\\Effects\\Factory Effects\\Expander\\Noise_Gate_Fast_Attack",
+       "GUID": "{747A6B61-E953-474C-8227-672C884DA616}",
+       "LibName": "Wwise Expander",
+       "LibId": "7143427"
+      },
+      {
+       "Id": "3036946058",
+       "Name": "Inside_Your_Head",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Claustrophobia\\Inside_Your_Head",
+       "GUID": "{AE2D0AE1-8963-400A-AA4A-52A7A6397F89}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "2797961412",
+      "Name": "Board_Impact",
+      "ObjectPath": "\\Events\\Default Work Unit\\Board\\Board_Impact",
+      "GUID": "{E56F747F-2C18-45AB-A079-E20022802AAE}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.8906349",
+      "DurationMax": "1.9135011",
+      "MediaRefs": [
+       {
+        "Id": "273035188"
+       },
+       {
+        "Id": "760759983"
+       },
+       {
+        "Id": "865613869"
+       },
+       {
+        "Id": "1041621212"
+       },
+       {
+        "Id": "1044600737"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "378120445"
+        },
+        {
+         "Id": "444787157"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "2598381242",
+      "Name": "Board_Jump",
+      "ObjectPath": "\\Events\\Default Work Unit\\Board\\Board_Jump",
+      "GUID": "{590747DB-DE20-472B-8686-F0EDCD80405A}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.5187469",
+      "DurationMax": "1.9135011",
+      "MediaRefs": [
+       {
+        "Id": "865613869"
+       },
+       {
+        "Id": "1041621212"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "439952464"
+        },
+        {
+         "Id": "664798260"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "939839769",
+      "Name": "Board_Slide",
+      "ObjectPath": "\\Events\\Default Work Unit\\Board\\Board_Slide",
+      "GUID": "{C513BE59-9F7B-4D5C-8BBD-AD4DD81E36AB}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "442551353"
+       },
+       {
+        "Id": "621717411"
+       },
+       {
+        "Id": "718040466"
+       },
+       {
+        "Id": "761476863"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "43038348"
+        },
+        {
+         "Id": "341188668"
+        },
+        {
+         "Id": "938936662"
+        }
+       ],
+       "ShareSets": [
+        {
+         "Id": "1820854077"
+        },
+        {
+         "Id": "3036946058"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "2847367608",
+      "Name": "Board_Sparks",
+      "ObjectPath": "\\Events\\Default Work Unit\\Board\\Board_Sparks",
+      "GUID": "{43F4EC24-4DA4-4DB1-A1C7-29C60F2CBEA3}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "814543256",
+      "Name": "Button_Click",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\Button_Click",
+      "GUID": "{290E2274-F380-4137-AF89-E18B0768C8A7}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.1461599",
+      "DurationMax": "0.18414995",
+      "MediaRefs": [
+       {
+        "Id": "54224265"
+       }
+      ]
+     },
+     {
+      "Id": "1701177942",
+      "Name": "Button_Hover",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\Button_Hover",
+      "GUID": "{657EFF0D-615A-4DF0-89DE-29193F2DDEBC}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.14848313",
+      "DurationMax": "0.18707702",
+      "MediaRefs": [
+       {
+        "Id": "310633218"
+       },
+       {
+        "Id": "833413488"
+       }
+      ]
+     },
+     {
+      "Id": "567910595",
+      "Name": "Cargo_Collected",
+      "ObjectPath": "\\Events\\Default Work Unit\\Cargo\\Cargo_Collected",
+      "GUID": "{A21C77E3-A11A-4299-A4BF-4CDAE7C82BF9}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.3588097",
+      "DurationMax": "0.45559978",
+      "MediaRefs": [
+       {
+        "Id": "137445215"
+       },
+       {
+        "Id": "616451808"
+       },
+       {
+        "Id": "959268110"
+       },
+       {
+        "Id": "1012314860"
+       },
+       {
+        "Id": "1021935907"
+       },
+       {
+        "Id": "1053510957"
+       }
+      ]
+     },
+     {
+      "Id": "826022782",
+      "Name": "Cargo_Delivered",
+      "ObjectPath": "\\Events\\Default Work Unit\\Cargo\\Cargo_Delivered",
+      "GUID": "{35499C1B-812A-4138-B704-D8D482A39C70}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.754647",
+      "DurationMax": "0.81114995",
+      "MediaRefs": [
+       {
+        "Id": "20704354"
+       },
+       {
+        "Id": "112645882"
+       },
+       {
+        "Id": "333430689"
+       },
+       {
+        "Id": "569395891"
+       }
+      ]
+     },
+     {
+      "Id": "3007153047",
+      "Name": "CarLo_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\CarLo\\CarLo_Start",
+      "GUID": "{BF871FB5-0216-48CB-B761-C5666D740132}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.21175",
+      "DurationMax": "0.7981875",
+      "MediaRefs": [
+       {
+        "Id": "35691389"
+       },
+       {
+        "Id": "97371159"
+       },
+       {
+        "Id": "130781828"
+       },
+       {
+        "Id": "655484981"
+       },
+       {
+        "Id": "752888768"
+       },
+       {
+        "Id": "1063731710"
+       }
+      ]
+     },
+     {
+      "Id": "1015288770",
+      "Name": "Death_Stinger",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Death_Stinger",
+      "GUID": "{42CB097C-A228-4D5B-853A-D2064E1E3F10}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.3437415",
+      "DurationMax": "1.5082989",
+      "MediaRefs": [
+       {
+        "Id": "156634002"
+       },
+       {
+        "Id": "194061589"
+       },
+       {
+        "Id": "513200761"
+       }
+      ]
+     },
+     {
+      "Id": "587014128",
+      "Name": "Mission_Done",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Mission_Done",
+      "GUID": "{0ABC7667-CDF3-4F7C-9869-E9ACA0C40BBA}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.75",
+      "DurationMax": "2.75",
+      "MediaRefs": [
+       {
+        "Id": "954317587"
+       }
+      ]
+     },
+     {
+      "Id": "1545604691",
+      "Name": "Speed_Wind",
+      "ObjectPath": "\\Events\\Default Work Unit\\Board\\Speed_Wind",
+      "GUID": "{8F0F486E-CA54-4556-9FF9-392BB5A80B75}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "213154523"
+       },
+       {
+        "Id": "770952301"
+       },
+       {
+        "Id": "912841231"
+       }
+      ]
+     },
+     {
+      "Id": "1114964412",
+      "Name": "Start_Game",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\Start_Game",
+      "GUID": "{940EDF4C-C163-4AE5-87C8-E4F682CD44C3}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.8906349",
+      "DurationMax": "1.8906349",
+      "MediaRefs": [
+       {
+        "Id": "249522476"
+       },
+       {
+        "Id": "969675646"
+       },
+       {
+        "Id": "1044600737"
+       }
+      ]
+     },
+     {
+      "Id": "540993415",
+      "Name": "Start_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Start_Music",
+      "GUID": "{549F3F37-C15E-4EE7-B24F-1BCF03B92BC0}",
+      "DurationType": "Infinite",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "3730238669",
+         "Id": "984691642",
+         "GUID": "{C4CB6E59-93B6-4427-9402-538418F20890}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "120415481"
+         },
+         {
+          "Id": "122128424"
+         },
+         {
+          "Id": "229135163"
+         },
+         {
+          "Id": "319162199"
+         },
+         {
+          "Id": "344289599"
+         },
+         {
+          "Id": "347114582"
+         },
+         {
+          "Id": "513392093"
+         },
+         {
+          "Id": "771392887"
+         },
+         {
+          "Id": "895176466"
+         },
+         {
+          "Id": "964537798"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "3730238669",
+         "Id": "2607556080",
+         "GUID": "{28FA0B0E-951F-4BE6-B6CC-9FE447718D53}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "229135163"
+         },
+         {
+          "Id": "347114582"
+         }
+        ]
+       }
+      ],
+      "ActionSetState": [
+       {
+        "GroupId": "3730238669",
+        "Id": "984691642",
+        "Name": "Ingame",
+        "ObjectPath": "\\States\\Default Work Unit\\CurrentMenu\\Ingame",
+        "GUID": "{C4CB6E59-93B6-4427-9402-538418F20890}"
+       },
+       {
+        "GroupId": "3730238669",
+        "Id": "2607556080",
+        "Name": "Menu",
+        "ObjectPath": "\\States\\Default Work Unit\\CurrentMenu\\Menu",
+        "GUID": "{28FA0B0E-951F-4BE6-B6CC-9FE447718D53}"
+       }
+      ]
+     },
+     {
+      "Id": "1644585539",
+      "Name": "Text_Boop",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\Text_Boop",
+      "GUID": "{1B0D0A7C-9E7A-4F87-8F6E-DAA615202067}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.114155",
+      "DurationMax": "0.12094301",
+      "MediaRefs": [
+       {
+        "Id": "167388237"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1062779386",
+      "Name": "Player_Speed",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Player_Speed",
+      "GUID": "{755A6077-6B1E-4661-943B-E36C8DA47CB3}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "3730238669",
+      "Name": "CurrentMenu",
+      "ObjectPath": "\\States\\Default Work Unit\\CurrentMenu",
+      "GUID": "{03F8F33A-21A5-4C00-ABD3-D5BDF05761A3}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\CurrentMenu\\None",
+        "GUID": "{02C8F8E8-9BD0-4471-9976-9CE2F46D7F39}"
+       },
+       {
+        "Id": "984691642",
+        "Name": "Ingame",
+        "ObjectPath": "\\States\\Default Work Unit\\CurrentMenu\\Ingame",
+        "GUID": "{C4CB6E59-93B6-4427-9402-538418F20890}"
+       },
+       {
+        "Id": "2607556080",
+        "Name": "Menu",
+        "ObjectPath": "\\States\\Default Work Unit\\CurrentMenu\\Menu",
+        "GUID": "{28FA0B0E-951F-4BE6-B6CC-9FE447718D53}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{0969C4BD-6194-090E-CA0D-B2DF83A10BDC}"
+ }
+}

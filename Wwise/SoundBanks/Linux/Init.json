@@ -1,0 +1,161 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Linux",
+  "BasePlatform": "Linux",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "Type": "User",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "{97B629BF-01C4-95DD-8E5B-24201F20C025}",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "2662085913",
+       "Name": "Large_Church1",
+       "ObjectPath": "\\Effects\\Factory Effects\\Matrix Reverb\\Large_Church1",
+       "GUID": "{9B6E8B78-EF8C-494C-AADA-D01CF51B5FAC}",
+       "LibName": "Wwise Matrix Reverb",
+       "LibId": "7536643"
+      },
+      {
+       "Id": "3036946058",
+       "Name": "Inside_Your_Head",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Claustrophobia\\Inside_Your_Head",
+       "GUID": "{AE2D0AE1-8963-400A-AA4A-52A7A6397F89}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ],
+     "AudioDevices": [
+      {
+       "Id": "2317455096",
+       "Name": "No_Output",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\No_Output",
+       "GUID": "{1908A656-4E19-41B6-A544-722257D9B544}",
+       "LibName": "No Output",
+       "LibId": "11862023"
+      },
+      {
+       "Id": "3859886410",
+       "Name": "System",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\System",
+       "GUID": "{C8363E7E-063E-4DF2-97C5-2906990855D7}",
+       "LibName": "System",
+       "LibId": "11403271"
+      }
+     ]
+    },
+    "Busses": [
+     {
+      "Id": "2680856269",
+      "Name": "Music_Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music_Bus",
+      "GUID": "{AC79736D-7213-4C88-AFDA-4BFF740BA0D2}"
+     },
+     {
+      "Id": "2910858937",
+      "Name": "Sound_Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Sound_Bus",
+      "GUID": "{E337762B-CD58-4D6A-9AB9-85613A63E6F0}"
+     },
+     {
+      "Id": "3247222208",
+      "Name": "UI_Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\UI_Bus",
+      "GUID": "{FE30B8B8-C89C-46D9-B27F-975E4C523A71}"
+     },
+     {
+      "Id": "3803692087",
+      "Name": "Master Audio Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2662085913"
+        },
+        {
+         "Id": "3036946058"
+        }
+       ]
+      }
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "495870151",
+      "Name": "Sound_Volume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Volume\\Sound_Volume",
+      "GUID": "{1CE38233-CD16-4ADC-BAA7-26F6560C6B32}"
+     },
+     {
+      "Id": "1006694123",
+      "Name": "Music_Volume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Volume\\Music_Volume",
+      "GUID": "{C585E51A-20F4-4F2C-BDA9-10BA102ABBE3}"
+     },
+     {
+      "Id": "1062779386",
+      "Name": "Player_Speed",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Player_Speed",
+      "GUID": "{755A6077-6B1E-4661-943B-E36C8DA47CB3}"
+     },
+     {
+      "Id": "1719345792",
+      "Name": "UI_Volume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Volume\\UI_Volume",
+      "GUID": "{27BC1ACB-5D8C-4BD8-BBC3-DEB51196338E}"
+     },
+     {
+      "Id": "4179668880",
+      "Name": "Master_Volume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Volume\\Master_Volume",
+      "GUID": "{E9B72C92-7D2F-4390-890F-EF954217B472}"
+     },
+     {
+      "Id": "4200322836",
+      "Name": "Muffler",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Muffler",
+      "GUID": "{59FACCB0-D5C0-4D40-BBAE-984CE066E853}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "3730238669",
+      "Name": "CurrentMenu",
+      "ObjectPath": "\\States\\Default Work Unit\\CurrentMenu",
+      "GUID": "{03F8F33A-21A5-4C00-ABD3-D5BDF05761A3}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\CurrentMenu\\None",
+        "GUID": "{02C8F8E8-9BD0-4471-9976-9CE2F46D7F39}"
+       },
+       {
+        "Id": "984691642",
+        "Name": "Ingame",
+        "ObjectPath": "\\States\\Default Work Unit\\CurrentMenu\\Ingame",
+        "GUID": "{C4CB6E59-93B6-4427-9402-538418F20890}"
+       },
+       {
+        "Id": "2607556080",
+        "Name": "Menu",
+        "ObjectPath": "\\States\\Default Work Unit\\CurrentMenu\\Menu",
+        "GUID": "{28FA0B0E-951F-4BE6-B6CC-9FE447718D53}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{06FF6054-802F-8E04-C869-06655366C4DB}"
+ }
+}

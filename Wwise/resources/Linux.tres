@@ -1,0 +1,5 @@
+[gd_resource type="WwisePlatformInfo" format=3 uid="uid://c0gb1wa6vrhrg"]
+
+[resource]
+platform_name = "Linux"
+platform_path = "SoundBanks/Linux"

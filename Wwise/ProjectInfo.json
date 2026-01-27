@@ -1,0 +1,36 @@
+{
+ "ProjectInfo": {
+  "Project": {
+   "Name": "DoorSkatingWwise",
+   "GUID": "{79F08EEB-5EF9-47FF-BB94-115CC66B0276}",
+   "Generator": "2024.1.8.8898"
+  },
+  "CacheRoot": "../../door-skating-assets/Sounds/DoorSkatingWwise/.cache",
+  "Platforms": [
+   {
+    "Name": "Linux",
+    "GUID": "{9FB6573E-F7BA-4905-B753-EC3B2BB0CBDF}",
+    "BasePlatform": "Linux",
+    "BasePlatformGUID": "{BD0BDF13-3125-454F-8BFD-319537169F81}",
+    "Path": "SoundBanks/Linux"
+   },
+   {
+    "Name": "Windows",
+    "GUID": "{02B68F0E-2FE2-4E26-A2C2-2EDFD59C291F}",
+    "BasePlatform": "Windows",
+    "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
+    "Path": "SoundBanks/Windows"
+   }
+  ],
+  "Languages": [
+   {
+    "Name": "English(US)",
+    "Id": "684519430",
+    "GUID": "{B849D5CE-8DB2-468B-9854-733CFC37FB9A}",
+    "Default": "true",
+    "UseAsStandIn": "true"
+   }
+  ],
+  "FileHash": "{0F8D1791-20C4-2248-9B29-93CCADD97C11}"
+ }
+}

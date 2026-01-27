@@ -1,0 +1,89 @@
+Event	ID	Name			Wwise Object Path	Notes
+	540993415	Start_Music			\Default Work Unit\Music\Start_Music	
+	567910595	Cargo_Collected			\Default Work Unit\Cargo\Cargo_Collected	
+	587014128	Mission_Done			\Default Work Unit\Music\Mission_Done	
+	814543256	Button_Click			\Default Work Unit\UI\Button_Click	
+	826022782	Cargo_Delivered			\Default Work Unit\Cargo\Cargo_Delivered	
+	939839769	Board_Slide			\Default Work Unit\Board\Board_Slide	
+	1015288770	Death_Stinger			\Default Work Unit\Music\Death_Stinger	
+	1114964412	Start_Game			\Default Work Unit\UI\Start_Game	
+	1545604691	Speed_Wind			\Default Work Unit\Board\Speed_Wind	
+	1644585539	Text_Boop			\Default Work Unit\UI\Text_Boop	
+	1701177942	Button_Hover			\Default Work Unit\UI\Button_Hover	
+	2598381242	Board_Jump			\Default Work Unit\Board\Board_Jump	
+	2797961412	Board_Impact			\Default Work Unit\Board\Board_Impact	
+	2847367608	Board_Sparks			\Default Work Unit\Board\Board_Sparks	
+	3007153047	CarLo_Start			\Default Work Unit\CarLo\CarLo_Start	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3730238669	CurrentMenu			\Default Work Unit\CurrentMenu	
+
+State	ID	Name	State Group			Notes
+	748895195	None	CurrentMenu			
+	984691642	Ingame	CurrentMenu			
+	2607556080	Menu	CurrentMenu			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1062779386	Player_Speed			\Default Work Unit\Player_Speed	
+
+Effect plug-ins	ID	Name	Type				Notes
+	43038348	Time Stretch (Custom)	Wwise Time Stretch			
+	341188668	Time Stretch (Custom)	Wwise Time Stretch			
+	378120445	Time Stretch (Custom)	Wwise Time Stretch			
+	439952464	Time Stretch (Custom)	Wwise Time Stretch			
+	444787157	Time Stretch (Custom)	Wwise Time Stretch			
+	664798260	Time Stretch (Custom)	Wwise Time Stretch			
+	938936662	Time Stretch (Custom)	Wwise Time Stretch			
+	1820854077	Noise_Gate_Fast_Attack	Wwise Expander			
+	3036946058	Inside_Your_Head	Wwise RoomVerb			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	20704354	Cargo Ding2 Render 0	G:\door-skating-assets\Sounds\DoorSkatingWwise\.cache\65\{65415A0D-D406-661A-2E40-737A325DEBB1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cargo\Cargo_Delivered\Ding\Cargo Ding2 Render 0		9792
+	35691389	CarLo CarLoStart1 Render 0	G:\door-skating-assets\Sounds\DoorSkatingWwise\.cache\B2\{B2E28E92-DCCD-8B4F-9766-4F9235F07385}.wem		\Actor-Mixer Hierarchy\Default Work Unit\CarLo\CarLo_Start\CarLo CarLoStart1 Render 0		3750
+	54224265	Button Click1 Render 0	G:\door-skating-assets\Sounds\DoorSkatingWwise\.cache\3B\{3B77C81D-4D32-9749-85FD-DAD511A6F229}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Button_Click\Button Click1 Render 0		3115
+	97371159	CarLo CarLoStart3 Render 0	G:\door-skating-assets\Sounds\DoorSkatingWwise\.cache\CB\{CB754DE5-FD96-9AE4-DF5E-B1CBBF0516DE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\CarLo\CarLo_Start\CarLo CarLoStart3 Render 0		8062
+	112645882	Cargo Impact2 Render 0	G:\door-skating-assets\Sounds\DoorSkatingWwise\.cache\A4\{A411B497-4B3A-240E-1302-B2008710DB39}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cargo\Cargo_Delivered\Impact\Cargo Impact2 Render 0		9512
+	120415481	DrumsA1-3	G:\door-skating-assets\Sounds\DoorSkatingWwise\.cache\E2\{E2D44E5B-9887-F634-2029-81F0F12F493A}.wem		\Interactive Music Hierarchy\Default Work Unit\Music\IngamePlaylist\TrackMelodyA2\DrumsA1-3		154490
+	122128424	HarmonyA1-2	G:\door-skating-assets\Sounds\DoorSkatingWwise\.cache\4F\{4F9F13EA-3734-A3C0-8FBA-ACB2C1299C25}.wem		\Interactive Music Hierarchy\Default Work Unit\Music\IngamePlaylist\TrackMelodyA2\HarmonyA1-2		167111
+	130781828	CarLo CarLoStart6 Render 0	G:\door-skating-assets\Sounds\DoorSkatingWwise\.cache\68\{68B4F2F1-484B-B510-3DAC-DCE7D2622D99}.wem		\Actor-Mixer Hierarchy\Default Work Unit\CarLo\CarLo_Start\CarLo CarLoStart6 Render 0		13628
+	137445215	Cargo Chink2 Render 0	G:\door-skating-assets\Sounds\DoorSkatingWwise\.cache\58\{58D75C31-9CAF-7F87-8B29-6656719677B5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cargo\Cargo_Collected\Chink\Cargo Chink2 Render 0		4173
+	156634002	DeathStinger Slap1 Render 0	G:\door-skating-assets\Sounds\DoorSkatingWwise\.cache\74\{74FD70A6-892D-385A-C86E-AD58F5AF88B8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Death_Stinger\Slap\DeathStinger Slap1 Render 0		20518
+	167388237	TextBoop	G:\door-skating-assets\Sounds\DoorSkatingWwise\.cache\06\{066E5E7D-0A36-E375-3EB1-1F4AE7B9729C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\TextBoop		2287
+	194061589	DeathStinger LoseSound Render 0	G:\door-skating-assets\Sounds\DoorSkatingWwise\.cache\F6\{F69EE000-A488-539D-3A1A-46880EBABA4F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Death_Stinger\DeathStinger LoseSound Render 0		19920
+	213154523	Board WindWeak Render 0	G:\door-skating-assets\Sounds\DoorSkatingWwise\.cache\00\{00EAF62F-D35E-A846-E37D-088BB2DF26E3}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Board\Board_Wind\Board WindWeak Render 0		105441
+	229135163	HarmonyA1-2	G:\door-skating-assets\Sounds\DoorSkatingWwise\.cache\DF\{DFB4CF36-BF32-BA8F-DF92-5531E9B69269}.wem		\Interactive Music Hierarchy\Default Work Unit\Music\IngamePlaylist\TrackMelodyA1\HarmonyA1-2		141621
+	249522476	StartGame DoorBass Render 0	G:\door-skating-assets\Sounds\DoorSkatingWwise\.cache\7A\{7A45A813-AC4D-7E54-ED56-73892C6CBA05}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Start_Game\StartGame DoorBass Render 0		11686
+	273035188	Board JumpImpact2 Render 0	G:\door-skating-assets\Sounds\DoorSkatingWwise\.cache\74\{74206538-3ECB-5AF4-265E-8B673F71B908}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Board\Board_Impact\Jump_Impact\Board JumpImpact2 Render 0		11928
+	310633218	Button Hover2 Render 0	G:\door-skating-assets\Sounds\DoorSkatingWwise\.cache\46\{4692FD9B-A7AB-691B-B654-2561AACBE0F8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Button_Hover\Button Hover2 Render 0		2564
+	319162199	DrumsA1-3	G:\door-skating-assets\Sounds\DoorSkatingWwise\.cache\F9\{F908E152-1BF2-7D84-F4BD-CF3F2ABDB882}.wem		\Interactive Music Hierarchy\Default Work Unit\Music\IngamePlaylist\TrackMelodyB\DrumsA1-3		121007
+	333430689	Cargo Impact1 Render 0	G:\door-skating-assets\Sounds\DoorSkatingWwise\.cache\9D\{9DAC9962-9312-2F93-369F-63789F5A3150}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cargo\Cargo_Delivered\Impact\Cargo Impact1 Render 0		8646
+	344289599	HarmonyB1	G:\door-skating-assets\Sounds\DoorSkatingWwise\.cache\11\{111A3B1E-13B3-6451-186D-9A4555A96042}.wem		\Interactive Music Hierarchy\Default Work Unit\Music\IngamePlaylist\TrackMelodyB\HarmonyB1		139383
+	347114582	MelodyA1-2	G:\door-skating-assets\Sounds\DoorSkatingWwise\.cache\BA\{BA941A5C-A1B2-F692-E466-A1A918801F29}.wem		\Interactive Music Hierarchy\Default Work Unit\Music\IngamePlaylist\TrackMelodyA1\MelodyA1-2		125662
+	442551353	Board SlideWoodLayer1 Render 0	G:\door-skating-assets\Sounds\DoorSkatingWwise\.cache\4E\{4EA2B099-9318-78D0-DBED-DF26774AFCE0}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Board\Board_Slide\Board SlideWoodLayer1 Render 0		225166
+	513200761	DeathStinger Slap2 Render 0	G:\door-skating-assets\Sounds\DoorSkatingWwise\.cache\68\{68E148F2-CAE8-4327-051F-37D80A18B255}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Death_Stinger\Slap\DeathStinger Slap2 Render 0		20492
+	513392093	DrumsA1-3+B	G:\door-skating-assets\Sounds\DoorSkatingWwise\.cache\E2\{E2A2A10A-9DA6-77F7-40B5-B11DB9F62E78}.wem		\Interactive Music Hierarchy\Default Work Unit\Music\IngamePlaylist\TrackMelodyA1\DrumsA1-3+B		160957
+	569395891	Cargo Ding1 Render 0	G:\door-skating-assets\Sounds\DoorSkatingWwise\.cache\F3\{F39B263D-484C-3455-9AB2-11790D95D2A6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cargo\Cargo_Delivered\Ding\Cargo Ding1 Render 0		9302
+	616451808	Cargo BreathOut1 Render 0	G:\door-skating-assets\Sounds\DoorSkatingWwise\.cache\F3\{F3EA0581-55BB-60B2-ADE1-222350970DF5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cargo\Cargo_Collected\BreathOut\Cargo BreathOut1 Render 0		3639
+	621717411	Board Sparks Render 0	G:\door-skating-assets\Sounds\DoorSkatingWwise\.cache\70\{70D1CCD6-6388-4FD2-62CB-0D096DDFA932}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Board\Board_Slide\Board Sparks Render 0		208051
+	655484981	CarLo CarLoStart2 Render 0	G:\door-skating-assets\Sounds\DoorSkatingWwise\.cache\11\{11691DCC-A305-86F2-819D-BE7B5BF6D899}.wem		\Actor-Mixer Hierarchy\Default Work Unit\CarLo\CarLo_Start\CarLo CarLoStart2 Render 0		7127
+	718040466	Board SlideWoodLayer3 Render 0	G:\door-skating-assets\Sounds\DoorSkatingWwise\.cache\BF\{BFF7EC88-1C49-ED09-42A9-9DFCC903072E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Board\Board_Slide\Board SlideWoodLayer3 Render 0		262622
+	752888768	CarLo CarLoStart4 Render 0	G:\door-skating-assets\Sounds\DoorSkatingWwise\.cache\84\{84702E19-D579-1A8F-899A-3A14EC3DAA8F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\CarLo\CarLo_Start\CarLo CarLoStart4 Render 0		5939
+	760759983	Board JumpImpact1 Render 0	G:\door-skating-assets\Sounds\DoorSkatingWwise\.cache\6F\{6F14C898-A475-6909-3A03-8E130AF0EFA5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Board\Board_Impact\Jump_Impact\Board JumpImpact1 Render 0		8775
+	761476863	Board SlideWoodLayer2 Render 0	G:\door-skating-assets\Sounds\DoorSkatingWwise\.cache\22\{2259C89A-954C-BECE-E72E-B329F1BF72CB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Board\Board_Slide\Board SlideWoodLayer2 Render 0		245722
+	770952301	Board WindStrong Render 0	G:\door-skating-assets\Sounds\DoorSkatingWwise\.cache\03\{033E81D4-73D6-C503-52D1-BAA247463281}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Board\Board_Wind\Board WindStrong Render 0		83338
+	771392887	MelodyA1-2	G:\door-skating-assets\Sounds\DoorSkatingWwise\.cache\52\{52E93DE8-202B-22FE-5238-DBAD63E75EB9}.wem		\Interactive Music Hierarchy\Default Work Unit\Music\IngamePlaylist\TrackMelodyA2\MelodyA1-2		168728
+	833413488	Button Hover1 Render 0	G:\door-skating-assets\Sounds\DoorSkatingWwise\.cache\98\{98DBF0A4-11C9-DC38-74DE-C52D7A2A507D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Button_Hover\Button Hover1 Render 0		2615
+	865613869	StartGame DoorBass Render 0	G:\door-skating-assets\Sounds\DoorSkatingWwise\.cache\B7\{B7F911CD-D19E-C6B9-A03B-00E6A7F932D7}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Board\Board_Jump\StartGame DoorBass Render 0		10135
+	895176466	DrumsA1-3+B	G:\door-skating-assets\Sounds\DoorSkatingWwise\.cache\30\{30BE7A7B-B9A8-229C-E952-4129A9762C43}.wem		\Interactive Music Hierarchy\Default Work Unit\Music\IngamePlaylist\TrackMelodyA1\DrumsA1-3+B		137584
+	912841231	Board WindMedium Render 0	G:\door-skating-assets\Sounds\DoorSkatingWwise\.cache\66\{66352F47-4653-2637-D190-48C836FCCDE7}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Board\Board_Wind\Board WindMedium Render 0		117351
+	954317587	Mission_Done_Stinger	G:\door-skating-assets\Sounds\DoorSkatingWwise\.cache\4C\{4C1321E0-B0C4-9E63-CF9E-D66965535205}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mission_Done_Stinger		36259
+	959268110	Cargo BreathOut2 Render 0	G:\door-skating-assets\Sounds\DoorSkatingWwise\.cache\47\{4769BA85-AC77-71D9-D8D5-DDEC220EF7BA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cargo\Cargo_Collected\BreathOut\Cargo BreathOut2 Render 0		3921
+	964537798	DrumsA1-3	G:\door-skating-assets\Sounds\DoorSkatingWwise\.cache\12\{129680EC-1DCE-4D8A-131E-B6EE7B0B9539}.wem		\Interactive Music Hierarchy\Default Work Unit\Music\IngamePlaylist\TrackMelodyA1\DrumsA1-3		140275
+	969675646	StartGame DoorImpact Render 0	G:\door-skating-assets\Sounds\DoorSkatingWwise\.cache\85\{8560A60A-7F6C-BF3A-E7ED-84EFC0A6AA12}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Start_Game\StartGame DoorImpact Render 0		11153
+	1012314860	Cargo Chink1 Render 0	G:\door-skating-assets\Sounds\DoorSkatingWwise\.cache\5C\{5C9D7593-D08F-D83A-D402-B808377149FA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cargo\Cargo_Collected\Chink\Cargo Chink1 Render 0		5112
+	1021935907	Cargo Snap1 Render 0	G:\door-skating-assets\Sounds\DoorSkatingWwise\.cache\D1\{D1158AC8-CF36-7D28-9778-7FD2F1E3F242}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cargo\Cargo_Collected\Snap\Cargo Snap1 Render 0		3140
+	1041621212	StartGame DoorImpact Render 0	G:\door-skating-assets\Sounds\DoorSkatingWwise\.cache\A4\{A46D933A-971B-45E3-9D9F-8C62A3BC1AA4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Board\Board_Jump\StartGame DoorImpact Render 0		9042
+	1044600737	StartGame OpenDoor Render 0	G:\door-skating-assets\Sounds\DoorSkatingWwise\.cache\F8\{F88BBB2C-3B06-6A43-C287-4C43B4F53D76}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Start_Game\StartGame OpenDoor Render 0		22717
+	1053510957	Cargo Snap2 Render 0	G:\door-skating-assets\Sounds\DoorSkatingWwise\.cache\AD\{AD039715-8141-D164-8887-05E3D7C8F311}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cargo\Cargo_Collected\Snap\Cargo Snap2 Render 0		2864
+	1063731710	CarLo CarLoStart5 Render 0	G:\door-skating-assets\Sounds\DoorSkatingWwise\.cache\99\{994EF3E6-EAA7-527C-B260-DE3D9D33B38C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\CarLo\CarLo_Start\CarLo CarLoStart5 Render 0		4471
+
