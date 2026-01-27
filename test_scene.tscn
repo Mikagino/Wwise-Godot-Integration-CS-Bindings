@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://dl0l8mlcjmjfv"]
+
+[ext_resource type="Script" uid="uid://b8h63lvv1kiff" path="res://TestSound.cs" id="1_uhqqe"]
+
+[node name="Node" type="Node"]
+script = ExtResource("1_uhqqe")
+eventName = "Button_Click"
+
+[node name="AkListener2D" type="AkListener2D" parent="."]

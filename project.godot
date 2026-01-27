@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="wwise-godot-integration-cs-bindings"
+run/main_scene="uid://dl0l8mlcjmjfv"
 config/features=PackedStringArray("4.5", "C#", "Mobile")
 config/icon="res://icon.svg"
 
@@ -29,3 +30,9 @@ enabled=PackedStringArray("res://addons/WwiseCSBindings/plugin.cfg", "res://addo
 [rendering]
 
 renderer/rendering_method="mobile"
+
+[wwise]
+
+common_user_settings/root_output_path="res://Wwise"
+project_settings/windows_platform_info="res://Wwise/resources/Windows.tres"
+project_settings/linux_platform_info="res://Wwise/resources/Linux.tres"
