@@ -3,5 +3,5 @@
 name="WwiseCSBindings"
 description="Call Wwise functions in C# without the use of GodotObject.Call"
 author="Mikagino"
-version="0.1"
-script="WwiseCSRuntimeManager.cs"
+version="1.0"
+script="WwiseCS.cs"

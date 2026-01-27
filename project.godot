@@ -1,0 +1,31 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="wwise-godot-integration-cs-bindings"
+config/features=PackedStringArray("4.5", "C#", "Mobile")
+config/icon="res://icon.svg"
+
+[autoload]
+
+WwiseRuntimeManager="*res://addons/Wwise/runtime/wwise_runtime_manager.gd"
+
+[dotnet]
+
+project/assembly_name="wwise-godot-integration-cs-bindings"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/WwiseCSBindings/plugin.cfg", "res://addons/csharp_wrapper_generator_for_gdextension/plugin.cfg")
+
+[rendering]
+
+renderer/rendering_method="mobile"
