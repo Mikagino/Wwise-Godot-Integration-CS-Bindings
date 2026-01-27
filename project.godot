@@ -12,7 +12,7 @@ config_version=5
 
 config/name="wwise-godot-integration-cs-bindings"
 run/main_scene="uid://dl0l8mlcjmjfv"
-config/features=PackedStringArray("4.5", "Mobile")
+config/features=PackedStringArray("4.5", "C#", "Mobile")
 config/icon="res://icon.svg"
 
 [autoload]
@@ -25,7 +25,7 @@ project/assembly_name="wwise-godot-integration-cs-bindings"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/WwiseCSBindings/plugin.cfg", "res://addons/csharp_wrapper_generator_for_gdextension/plugin.cfg")
+enabled=PackedStringArray("res://addons/csharp_wrapper_generator_for_gdextension/plugin.cfg")
 
 [rendering]
 
