@@ -42,6 +42,3 @@ func pause():
 func resume():
 	if Wwise.is_initialized():
 		Wwise.wakeup_from_suspend()
-
-func get_wwise() -> Object:
-	return Wwise;
