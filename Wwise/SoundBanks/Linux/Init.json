@@ -3,14 +3,14 @@
   "Platform": "Linux",
   "BasePlatform": "Linux",
   "SchemaVersion": "16",
-  "SoundBankVersion": "154",
+  "SoundBankVersion": "172",
   "SoundBanks": [
    {
     "Id": "1355168291",
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{97B629BF-01C4-95DD-8E5B-24201F20C025}",
+    "Hash": "{754C2343-3D0C-3BFF-B3C3-AC5C14C0FBC6}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -37,7 +37,7 @@
       {
        "Id": "2317455096",
        "Name": "No_Output",
-       "ObjectPath": "\\Audio Devices\\Default Work Unit\\No_Output",
+       "ObjectPath": "\\Devices\\Default Work Unit\\No_Output",
        "GUID": "{1908A656-4E19-41B6-A544-722257D9B544}",
        "LibName": "No Output",
        "LibId": "11862023"
@@ -45,7 +45,7 @@
       {
        "Id": "3859886410",
        "Name": "System",
-       "ObjectPath": "\\Audio Devices\\Default Work Unit\\System",
+       "ObjectPath": "\\Devices\\Default Work Unit\\System",
        "GUID": "{C8363E7E-063E-4DF2-97C5-2906990855D7}",
        "LibName": "System",
        "LibId": "11403271"
@@ -56,25 +56,25 @@
      {
       "Id": "2680856269",
       "Name": "Music_Bus",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music_Bus",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Music_Bus",
       "GUID": "{AC79736D-7213-4C88-AFDA-4BFF740BA0D2}"
      },
      {
       "Id": "2910858937",
       "Name": "Sound_Bus",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Sound_Bus",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Sound_Bus",
       "GUID": "{E337762B-CD58-4D6A-9AB9-85613A63E6F0}"
      },
      {
       "Id": "3247222208",
       "Name": "UI_Bus",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\UI_Bus",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\UI_Bus",
       "GUID": "{FE30B8B8-C89C-46D9-B27F-975E4C523A71}"
      },
      {
       "Id": "3803692087",
       "Name": "Master Audio Bus",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}",
       "PluginRefs": {
        "ShareSets": [
@@ -156,6 +156,6 @@
     ]
    }
   ],
-  "FileHash": "{06FF6054-802F-8E04-C869-06655366C4DB}"
+  "FileHash": "{380EB3B4-0739-5604-EC8A-5DFCF1DB4323}"
  }
 }

@@ -3,7 +3,7 @@
   "Project": {
    "Name": "DoorSkatingWwise",
    "GUID": "{79F08EEB-5EF9-47FF-BB94-115CC66B0276}",
-   "Generator": "2024.1.8.8898"
+   "Generator": "2025.1.3.9039"
   },
   "CacheRoot": "../../door-skating-assets/Sounds/DoorSkatingWwise/.cache",
   "Platforms": [
@@ -31,6 +31,6 @@
     "UseAsStandIn": "true"
    }
   ],
-  "FileHash": "{0F8D1791-20C4-2248-9B29-93CCADD97C11}"
+  "FileHash": "{CF4F0531-7FCF-92A3-AF5C-024B53A2E052}"
  }
 }

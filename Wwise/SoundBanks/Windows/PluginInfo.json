@@ -7,8 +7,8 @@
     "LibName": "Wwise Expander",
     "LibId": "7143427",
     "Type": "Effect",
-    "DLL": "AkExpander",
-    "StaticLib": "AkExpanderFX"
+    "DLL": "AkCompressor",
+    "StaticLib": "AkCompressorFX"
    },
    {
     "LibName": "Wwise Matrix Reverb",
@@ -42,6 +42,6 @@
     "Type": "AudioDevice"
    }
   ],
-  "FileHash": "{D4DA20A0-DC1C-5E29-2119-1D7CCF52BBE4}"
+  "FileHash": "{560CAEE2-E4A2-F8A7-13E1-E3E1604311C8}"
  }
 }
