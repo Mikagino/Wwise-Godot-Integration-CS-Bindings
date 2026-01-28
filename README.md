@@ -7,7 +7,7 @@ Godot 4.3, 4.4, 4.5
 
 # Installation
 1. Follow the installation instructions for the [Wwise Godot Integration](https://github.com/alessandrofama/wwise-godot-integration) by Alessandro Fama
-2. Add all files from res://addons/WwiseCSBindings/ anywhere into your project.
+2. Add all files from the according versions in the [Releases](https://github.com/Mikagino/Wwise-Godot-Integration-CS-Bindings/releases) anywhere into your project.
 3. Build your project
 4. Works!
 
