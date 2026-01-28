@@ -13,32 +13,29 @@ name = "Default Work Unit"
 id = 125608783
 
 [sub_resource type="WwiseTreeObject" id="WwiseTreeObject_wbiwk"]
-path = "\\Busses\\Default Work Unit\\Master Audio Bus\\Music_Bus"
+path = "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music_Bus"
 type = 2
 name = "Music_Bus"
 guid = "{AC79736D-7213-4C88-AFDA-4BFF740BA0D2}"
 id = 2680856269
 
 [sub_resource type="WwiseTreeObject" id="WwiseTreeObject_n4jq4"]
-path = "\\Busses\\Default Work Unit\\Master Audio Bus\\Sound_Bus"
+path = "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Sound_Bus"
 type = 2
 name = "Sound_Bus"
 guid = "{E337762B-CD58-4D6A-9AB9-85613A63E6F0}"
 id = 2910858937
 
 [sub_resource type="WwiseTreeObject" id="WwiseTreeObject_2b7v5"]
-path = "\\Busses\\Default Work Unit\\Master Audio Bus\\UI_Bus"
+path = "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\UI_Bus"
 type = 2
 name = "UI_Bus"
 guid = "{FE30B8B8-C89C-46D9-B27F-975E4C523A71}"
 id = 3247222208
 
 [sub_resource type="WwiseTreeObject" id="WwiseTreeObject_yty4k"]
-path = "\\Busses\\Default Work Unit\\Master Audio Bus"
 children = [SubResource("WwiseTreeObject_wbiwk"), SubResource("WwiseTreeObject_n4jq4"), SubResource("WwiseTreeObject_2b7v5")]
-type = 2
 name = "Master Audio Bus"
-guid = "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
 id = 3803692087
 
 [sub_resource type="WwiseTreeObject" id="WwiseTreeObject_rq3ka"]

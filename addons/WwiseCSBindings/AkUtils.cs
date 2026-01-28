@@ -100,7 +100,6 @@ public partial class AkUtils : GodotObject
 		MusicSyncAll = 32512,
 		MidiEvent = 32768,
 		Bits = 1048575,
-		EnableGetSourcePlayPosition = 1048576,
 		EnableGetMusicPlayPosition = 2097152,
 		EnableGetSourceStreamBuffering = 4194304,
 	}

@@ -80,7 +80,6 @@ public partial class AkEvent2D : Node2D
 		public new static readonly StringName MusicSyncAll = "music_sync_all";
 		public new static readonly StringName MidiEvent = "midi_event";
 		public new static readonly StringName CallbackBits = "callback_bits";
-		public new static readonly StringName EnableGetSourcePlayPosition = "enable_get_source_play_position";
 		public new static readonly StringName EnableGetMusicPlayPosition = "enable_get_music_play_position";
 		public new static readonly StringName EnableGetSourceStreamBuffering = "enable_get_source_stream_buffering";
 	}
@@ -514,30 +513,6 @@ public partial class AkEvent2D : Node2D
 			if (_callbackBitsSignal is not null) return;
 			Disconnect(GDExtensionSignalName.CallbackBits, _callbackBitsSignalCallable);
 			_callbackBitsSignalCallable = default;
-		}
-	}
-
-	public new delegate void EnableGetSourcePlayPositionSignalHandler(Godot.Collections.Dictionary data);
-	private EnableGetSourcePlayPositionSignalHandler _enableGetSourcePlayPositionSignal;
-	private Callable _enableGetSourcePlayPositionSignalCallable;
-	public event EnableGetSourcePlayPositionSignalHandler EnableGetSourcePlayPositionSignal
-	{
-		add
-		{
-			if (_enableGetSourcePlayPositionSignal is null)
-			{
-				_enableGetSourcePlayPositionSignalCallable = Callable.From((Variant data) => 
-					_enableGetSourcePlayPositionSignal?.Invoke(data.As<Godot.Collections.Dictionary>()));
-				Connect(GDExtensionSignalName.EnableGetSourcePlayPosition, _enableGetSourcePlayPositionSignalCallable);
-			}
-			_enableGetSourcePlayPositionSignal += value;
-		}
-		remove
-		{
-			_enableGetSourcePlayPositionSignal -= value;
-			if (_enableGetSourcePlayPositionSignal is not null) return;
-			Disconnect(GDExtensionSignalName.EnableGetSourcePlayPosition, _enableGetSourcePlayPositionSignalCallable);
-			_enableGetSourcePlayPositionSignalCallable = default;
 		}
 	}
 

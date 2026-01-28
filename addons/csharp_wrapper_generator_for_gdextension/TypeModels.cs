@@ -99,9 +99,6 @@ public partial class WrapperGeneratorMain
 
                   {{indent}}private new static readonly StringName {{TypeGDExtensionCacheName}} = new StringName("{{GodotTypeName}}");
 
-                  {{indent}}[Obsolete("Wrapper types cannot be constructed with constructors (it only instantiate the underlying {{CSharpTypeName}} object), please use the {{WrapperConstructorName}}() method instead.")]
-                  {{indent}}protected {{CSharpTypeName}}() { }
-
                   {{indent}}private static CSharpScript _wrapperScriptAsset;
 
                   {{indent}}/// <summary>
