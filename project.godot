@@ -25,7 +25,7 @@ project/assembly_name="wwise-godot-integration-cs-bindings"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/csharp_wrapper_generator_for_gdextension/plugin.cfg")
+enabled=PackedStringArray()
 
 [rendering]
 
