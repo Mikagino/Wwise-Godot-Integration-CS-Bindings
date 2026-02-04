@@ -14,7 +14,6 @@ public partial class AkBank : Node
 
 	private new static readonly StringName NativeName = new StringName("AkBank");
 
-	[Obsolete("Wrapper types cannot be constructed with constructors (it only instantiate the underlying AkBank object), please use the Instantiate() method instead.")]
 	protected AkBank() { }
 
 	private static CSharpScript _wrapperScriptAsset;
