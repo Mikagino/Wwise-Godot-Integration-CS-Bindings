@@ -25,7 +25,7 @@ project/assembly_name="wwise-godot-integration-cs-bindings"
 
 [editor_plugins]
 
-enabled=PackedStringArray()
+enabled=PackedStringArray("res://addons/WwiseCSBindings/WwiseIdsConverter/plugin.cfg")
 
 [rendering]
 
