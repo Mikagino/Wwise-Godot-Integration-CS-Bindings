@@ -14,8 +14,6 @@ public partial class AkEvent2D : Node2D
 
 	private new static readonly StringName NativeName = new StringName("AkEvent2D");
 
-	protected AkEvent2D() { }
-
 	private static CSharpScript _wrapperScriptAsset;
 
 	/// <summary>

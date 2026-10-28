@@ -9,7 +9,7 @@ using Godot.Collections;
 namespace GDExtensionWrappers;
 
 [Tool]
-public partial class WwiseSettings : RefCounted
+public partial class WwiseSettings : GodotObject
 {
 
 	private new static readonly StringName NativeName = new StringName("WwiseSettings");

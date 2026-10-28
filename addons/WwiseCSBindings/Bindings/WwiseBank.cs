@@ -60,13 +60,21 @@ public partial class WwiseBank : WwiseBaseType
 	public new static class GDExtensionMethodName
 	{
 		public new static readonly StringName Load = "load";
+		public new static readonly StringName LoadAsync = "load_async";
 		public new static readonly StringName Unload = "unload";
+		public new static readonly StringName UnloadAsync = "unload_async";
 	}
 
 	public new void Load() => 
 		Call(GDExtensionMethodName.Load, []);
 
+	public new void LoadAsync(Callable loadCallback) => 
+		Call(GDExtensionMethodName.LoadAsync, [loadCallback]);
+
 	public new void Unload() => 
 		Call(GDExtensionMethodName.Unload, []);
+
+	public new void UnloadAsync(Callable unloadCallback) => 
+		Call(GDExtensionMethodName.UnloadAsync, [unloadCallback]);
 
 }

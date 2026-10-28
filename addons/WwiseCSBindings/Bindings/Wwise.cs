@@ -18,20 +18,20 @@ public partial class Wwise : GodotObject
 
 	private static Wwise _instance;
 
-    protected static Wwise Instance
-    {
-        get
-        {
-            if (_instance == null)
-            {
-                if (Engine.HasSingleton("Wwise"))
+	protected static Wwise Instance
+	{
+		get
+		{
+			if (_instance == null)
+			{
+				if (Engine.HasSingleton("Wwise"))
 					_instance = Bind(Engine.GetSingleton("Wwise"));
-                else
-                    GD.PrintErr("Wwise singleton not loaded!");
-            }
-            return _instance;
-        }
-    }
+				else
+					GD.PrintErr("Wwise singleton not loaded!");
+			}
+			return _instance;
+		}
+	}
 
 	/// <summary>
 	/// Try to cast the script on the supplied <paramref name="godotObject"/> to the <see cref="Wwise"/> wrapper type,
@@ -151,241 +151,241 @@ public partial class Wwise : GodotObject
 		public new static readonly StringName IsInitialized = "is_initialized";
 	}
 
-	public static new void Init() => 
+	public new static void Init() => 
 		Instance.Call(GDExtensionMethodName.Init, []);
 
-	public static new void RenderAudio() => 
+	public new static void RenderAudio() => 
 		Instance.Call(GDExtensionMethodName.RenderAudio, []);
 
-	public static  new void Shutdown() => 
+	public new static void Shutdown() => 
 		Instance.Call(GDExtensionMethodName.Shutdown, []);
 
-	public static  new void SetBanksPath(string rootOutputPath) => 
+	public new static void SetBanksPath(string rootOutputPath) => 
 		Instance.Call(GDExtensionMethodName.SetBanksPath, [rootOutputPath]);
 
-	public static  new void SetCurrentLanguage(string language) => 
+	public new static void SetCurrentLanguage(string language) => 
 		Instance.Call(GDExtensionMethodName.SetCurrentLanguage, [language]);
 
-	public static  new bool LoadBank(string bankName) => 
+	public new static bool LoadBank(string bankName) => 
 		Instance.Call(GDExtensionMethodName.LoadBank, [bankName]).As<bool>();
 
-	public static  new bool LoadBankId(long bankId) => 
+	public new static bool LoadBankId(long bankId) => 
 		Instance.Call(GDExtensionMethodName.LoadBankId, [bankId]).As<bool>();
 
-	public static  new bool LoadBankAsync(string bankName, Callable cookie) => 
+	public new static bool LoadBankAsync(string bankName, Callable cookie) => 
 		Instance.Call(GDExtensionMethodName.LoadBankAsync, [bankName, cookie]).As<bool>();
 
-	public static  new bool LoadBankAsyncId(long bankId, Callable cookie) => 
+	public new static bool LoadBankAsyncId(long bankId, Callable cookie) => 
 		Instance.Call(GDExtensionMethodName.LoadBankAsyncId, [bankId, cookie]).As<bool>();
 
-	public static  new bool UnloadBank(string bankName) => 
+	public new static bool UnloadBank(string bankName) => 
 		Instance.Call(GDExtensionMethodName.UnloadBank, [bankName]).As<bool>();
 
-	public static  new bool UnloadBankId(long bankId) => 
+	public new static bool UnloadBankId(long bankId) => 
 		Instance.Call(GDExtensionMethodName.UnloadBankId, [bankId]).As<bool>();
 
-	public static  new bool UnloadBankAsync(string bankName, Callable cookie) => 
+	public new static bool UnloadBankAsync(string bankName, Callable cookie) => 
 		Instance.Call(GDExtensionMethodName.UnloadBankAsync, [bankName, cookie]).As<bool>();
 
-	public static  new bool UnloadBankAsyncId(long bankId, Callable cookie) => 
+	public new static bool UnloadBankAsyncId(long bankId, Callable cookie) => 
 		Instance.Call(GDExtensionMethodName.UnloadBankAsyncId, [bankId, cookie]).As<bool>();
 
-	public static  new bool RegisterListener(Node gameObject) => 
+	public new static bool RegisterListener(Node gameObject) => 
 		Instance.Call(GDExtensionMethodName.RegisterListener, [gameObject]).As<bool>();
 
-	public static  new bool RegisterGameObj(Node gameObject, string name) => 
+	public new static bool RegisterGameObj(Node gameObject, string name) => 
 		Instance.Call(GDExtensionMethodName.RegisterGameObj, [gameObject, name]).As<bool>();
 
-	public static  new bool UnregisterGameObj(Node gameObject) => 
+	public new static bool UnregisterGameObj(Node gameObject) => 
 		Instance.Call(GDExtensionMethodName.UnregisterGameObj, [gameObject]).As<bool>();
 
-	public static  new bool AddListener(Node emitter, Node listener) => 
+	public new static bool AddListener(Node emitter, Node listener) => 
 		Instance.Call(GDExtensionMethodName.AddListener, [emitter, listener]).As<bool>();
 
-	public static  new bool RemoveListener(Node emitter, Node listener) => 
+	public new static bool RemoveListener(Node emitter, Node listener) => 
 		Instance.Call(GDExtensionMethodName.RemoveListener, [emitter, listener]).As<bool>();
 
-	public static  new bool AddDefaultListener(Node gameObject) => 
+	public new static bool AddDefaultListener(Node gameObject) => 
 		Instance.Call(GDExtensionMethodName.AddDefaultListener, [gameObject]).As<bool>();
 
-	public static  new bool RemoveDefaultListener(Node gameObject) => 
+	public new static bool RemoveDefaultListener(Node gameObject) => 
 		Instance.Call(GDExtensionMethodName.RemoveDefaultListener, [gameObject]).As<bool>();
 
-	public static  new bool SetListeners(Node emitter, Godot.Collections.Array listeners) => 
+	public new static bool SetListeners(Node emitter, Godot.Collections.Array listeners) => 
 		Instance.Call(GDExtensionMethodName.SetListeners, [emitter, listeners]).As<bool>();
 
-	public static  new bool SetDistanceProbe(Node listenerGameObject, Node probeGameObject) => 
+	public new static bool SetDistanceProbe(Node listenerGameObject, Node probeGameObject) => 
 		Instance.Call(GDExtensionMethodName.SetDistanceProbe, [listenerGameObject, probeGameObject]).As<bool>();
 
-	public static  new bool ResetDistanceProbe(Node listenerGameObject) => 
+	public new static bool ResetDistanceProbe(Node listenerGameObject) => 
 		Instance.Call(GDExtensionMethodName.ResetDistanceProbe, [listenerGameObject]).As<bool>();
 
-	public static  new void SetRandomSeed(long seed) => 
+	public new static void SetRandomSeed(long seed) => 
 		Instance.Call(GDExtensionMethodName.SetRandomSeed, [seed]);
 
-	public static  new bool Set3dPosition(Node gameObject, Transform3D transform3d) => 
+	public new static bool Set3dPosition(Node gameObject, Transform3D transform3d) => 
 		Instance.Call(GDExtensionMethodName.Set3dPosition, [gameObject, transform3d]).As<bool>();
 
-	public static  new bool Set2dPosition(Node gameObject, Transform2D transform2d, double zDepth) => 
+	public new static bool Set2dPosition(Node gameObject, Transform2D transform2d, double zDepth) => 
 		Instance.Call(GDExtensionMethodName.Set2dPosition, [gameObject, transform2d, zDepth]).As<bool>();
 
-	public static  new bool SetMultiplePositions3d(Node gameObject, Godot.Collections.Array positions, long numPositions, AkUtils.MultiPositionType multiPositionType) => 
+	public new static bool SetMultiplePositions3d(Node gameObject, Godot.Collections.Array positions, long numPositions, AkUtils.MultiPositionType multiPositionType) => 
 		Instance.Call(GDExtensionMethodName.SetMultiplePositions3d, [gameObject, positions, numPositions, Variant.From(multiPositionType)]).As<bool>();
 
-	public static  new bool SetMultiplePositions2d(Node gameObject, Godot.Collections.Array positions, Godot.Collections.Array zDepths, long numPositions, AkUtils.MultiPositionType multiPositionType) => 
+	public new static bool SetMultiplePositions2d(Node gameObject, Godot.Collections.Array positions, Godot.Collections.Array zDepths, long numPositions, AkUtils.MultiPositionType multiPositionType) => 
 		Instance.Call(GDExtensionMethodName.SetMultiplePositions2d, [gameObject, positions, zDepths, numPositions, Variant.From(multiPositionType)]).As<bool>();
 
-	public static  new bool SetGameObjectRadius(Node gameObject, double outerRadius, double innerRadius) => 
+	public new static bool SetGameObjectRadius(Node gameObject, double outerRadius, double innerRadius) => 
 		Instance.Call(GDExtensionMethodName.SetGameObjectRadius, [gameObject, outerRadius, innerRadius]).As<bool>();
 
-	public static  new long PostEvent(string eventName, Node gameObject) => 
+	public new static long PostEvent(string eventName, Node gameObject) => 
 		Instance.Call(GDExtensionMethodName.PostEvent, [eventName, gameObject]).As<long>();
 
-	public static  new long PostEventCallback(string eventName, AkUtils.AkCallbackType flags, Node gameObject, Callable cookie) => 
+	public new static long PostEventCallback(string eventName, AkUtils.AkCallbackType flags, Node gameObject, Callable cookie) => 
 		Instance.Call(GDExtensionMethodName.PostEventCallback, [eventName, Variant.From(flags), gameObject, cookie]).As<long>();
 
-	public static  new long PostEventId(long eventId, Node gameObject) => 
+	public new static long PostEventId(long eventId, Node gameObject) => 
 		Instance.Call(GDExtensionMethodName.PostEventId, [eventId, gameObject]).As<long>();
 
-	public static  new long PostEventIdCallback(long eventId, AkUtils.AkCallbackType flags, Node gameObject, Callable cookie) => 
+	public new static long PostEventIdCallback(long eventId, AkUtils.AkCallbackType flags, Node gameObject, Callable cookie) => 
 		Instance.Call(GDExtensionMethodName.PostEventIdCallback, [eventId, Variant.From(flags), gameObject, cookie]).As<long>();
 
-	public static  new long PostMidiOnEventId(long eventId, Node gameObject, Godot.Collections.Array midiPosts, bool absoluteOffsets) => 
+	public new static long PostMidiOnEventId(long eventId, Node gameObject, Godot.Collections.Array midiPosts, bool absoluteOffsets) => 
 		Instance.Call(GDExtensionMethodName.PostMidiOnEventId, [eventId, gameObject, midiPosts, absoluteOffsets]).As<long>();
 
-	public static  new void StopEvent(long playingId, long fadeTime, AkUtils.AkCurveInterpolation interpolation) => 
+	public new static void StopEvent(long playingId, long fadeTime, AkUtils.AkCurveInterpolation interpolation) => 
 		Instance.Call(GDExtensionMethodName.StopEvent, [playingId, fadeTime, Variant.From(interpolation)]);
 
-	public static  new bool StopMidiOnEventId(long eventId, Node gameObject) => 
+	public new static bool StopMidiOnEventId(long eventId, Node gameObject) => 
 		Instance.Call(GDExtensionMethodName.StopMidiOnEventId, [eventId, gameObject]).As<bool>();
 
-	public static  new bool ExecuteActionOnEventId(long eventId, AkUtils.AkActionOnEventType actionType, Node gameObject, long transitionDuration = 0, AkUtils.AkCurveInterpolation fadeCurve = AkUtils.AkCurveInterpolation.Linear, long playingId = 0) => 
+	public new static bool ExecuteActionOnEventId(long eventId, AkUtils.AkActionOnEventType actionType, Node gameObject, long transitionDuration = 0, AkUtils.AkCurveInterpolation fadeCurve = AkUtils.AkCurveInterpolation.Linear, long playingId = 0) => 
 		Instance.Call(GDExtensionMethodName.ExecuteActionOnEventId, [eventId, Variant.From(actionType), gameObject, transitionDuration, Variant.From(fadeCurve), playingId]).As<bool>();
 
-	public static  new bool SetSwitch(string switchGroup, string switchValue, Node gameObject) => 
+	public new static bool SetSwitch(string switchGroup, string switchValue, Node gameObject) => 
 		Instance.Call(GDExtensionMethodName.SetSwitch, [switchGroup, switchValue, gameObject]).As<bool>();
 
-	public static  new bool SetSwitchId(long switchGroupId, long switchValueId, Node gameObject) => 
+	public new static bool SetSwitchId(long switchGroupId, long switchValueId, Node gameObject) => 
 		Instance.Call(GDExtensionMethodName.SetSwitchId, [switchGroupId, switchValueId, gameObject]).As<bool>();
 
-	public static  new bool SetState(string stateGroup, string stateValue) => 
+	public new static bool SetState(string stateGroup, string stateValue) => 
 		Instance.Call(GDExtensionMethodName.SetState, [stateGroup, stateValue]).As<bool>();
 
-	public static  new bool SetStateId(long stateGroupId, long stateValueId) => 
+	public new static bool SetStateId(long stateGroupId, long stateValueId) => 
 		Instance.Call(GDExtensionMethodName.SetStateId, [stateGroupId, stateValueId]).As<bool>();
 
-	public static  new double GetRtpcValue(string name, Node gameObject) => 
+	public new static double GetRtpcValue(string name, Node gameObject) => 
 		Instance.Call(GDExtensionMethodName.GetRtpcValue, [name, gameObject]).As<double>();
 
-	public static  new double GetRtpcValueId(long id, Node gameObject) => 
+	public new static double GetRtpcValueId(long id, Node gameObject) => 
 		Instance.Call(GDExtensionMethodName.GetRtpcValueId, [id, gameObject]).As<double>();
 
-	public static  new bool SetRtpcValue(string name, double value, Node gameObject) => 
+	public new static bool SetRtpcValue(string name, double value, Node gameObject) => 
 		Instance.Call(GDExtensionMethodName.SetRtpcValue, [name, value, gameObject]).As<bool>();
 
-	public static  new bool SetRtpcValueId(long id, double value, Node gameObject) => 
+	public new static bool SetRtpcValueId(long id, double value, Node gameObject) => 
 		Instance.Call(GDExtensionMethodName.SetRtpcValueId, [id, value, gameObject]).As<bool>();
 
-	public static  new bool PostTrigger(string name, Node gameObject) => 
+	public new static bool PostTrigger(string name, Node gameObject) => 
 		Instance.Call(GDExtensionMethodName.PostTrigger, [name, gameObject]).As<bool>();
 
-	public static  new bool PostTriggerId(long id, Node gameObject) => 
+	public new static bool PostTriggerId(long id, Node gameObject) => 
 		Instance.Call(GDExtensionMethodName.PostTriggerId, [id, gameObject]).As<bool>();
 
-	public static  new long PostExternalSource(string eventName, Node gameObject, string sourceObjectName, string filename, AkUtils.AkCodecId idCodec) => 
+	public new static long PostExternalSource(string eventName, Node gameObject, string sourceObjectName, string filename, AkUtils.AkCodecId idCodec) => 
 		Instance.Call(GDExtensionMethodName.PostExternalSource, [eventName, gameObject, sourceObjectName, filename, Variant.From(idCodec)]).As<long>();
 
-	public static  new long PostExternalSourceId(long eventId, Node gameObject, long sourceObjectId, string filename, AkUtils.AkCodecId idCodec) => 
+	public new static long PostExternalSourceId(long eventId, Node gameObject, long sourceObjectId, string filename, AkUtils.AkCodecId idCodec) => 
 		Instance.Call(GDExtensionMethodName.PostExternalSourceId, [eventId, gameObject, sourceObjectId, filename, Variant.From(idCodec)]).As<long>();
 
-	public static  new long PostExternalSources(long eventId, Node gameObject, Godot.Collections.Array externalSourceInfo) => 
+	public new static long PostExternalSources(long eventId, Node gameObject, Godot.Collections.Array externalSourceInfo) => 
 		Instance.Call(GDExtensionMethodName.PostExternalSources, [eventId, gameObject, externalSourceInfo]).As<long>();
 
-	public static  new long GetSourcePlayPosition(long playingId, bool extrapolate) => 
+	public new static long GetSourcePlayPosition(long playingId, bool extrapolate) => 
 		Instance.Call(GDExtensionMethodName.GetSourcePlayPosition, [playingId, extrapolate]).As<long>();
 
-	public static  new Godot.Collections.Dictionary GetPlayingSegmentInfo(long playingId, bool extrapolate) => 
+	public new static Godot.Collections.Dictionary GetPlayingSegmentInfo(long playingId, bool extrapolate) => 
 		Instance.Call(GDExtensionMethodName.GetPlayingSegmentInfo, [playingId, extrapolate]).As<Godot.Collections.Dictionary>();
 
-	public static  new bool SetGameObjectOutputBusVolume(Node gameObject, Node listener, double fControlValue) => 
+	public new static bool SetGameObjectOutputBusVolume(Node gameObject, Node listener, double fControlValue) => 
 		Instance.Call(GDExtensionMethodName.SetGameObjectOutputBusVolume, [gameObject, listener, fControlValue]).As<bool>();
 
-	public static  new bool SetGameObjectAuxSendValues(Node gameObject, Godot.Collections.Array akAuxSendValues, long numSendValues) => 
+	public new static bool SetGameObjectAuxSendValues(Node gameObject, Godot.Collections.Array akAuxSendValues, long numSendValues) => 
 		Instance.Call(GDExtensionMethodName.SetGameObjectAuxSendValues, [gameObject, akAuxSendValues, numSendValues]).As<bool>();
 
-	public static  new bool SetObjectObstructionAndOcclusion(Node gameObject, Node listener, double calculatedObs, double calculatedOcc) => 
+	public new static bool SetObjectObstructionAndOcclusion(Node gameObject, Node listener, double calculatedObs, double calculatedOcc) => 
 		Instance.Call(GDExtensionMethodName.SetObjectObstructionAndOcclusion, [gameObject, listener, calculatedObs, calculatedOcc]).As<bool>();
 
-	public static  new bool SetGeometry(Godot.Collections.Array vertices, Godot.Collections.Array triangles, WwiseAcousticTexture acousticTexture, double transissionLossValue, Node gameObject, bool enableDiffraction, bool enableDiffractionOnBoundaryEdges) => 
+	public new static bool SetGeometry(Godot.Collections.Array vertices, Godot.Collections.Array triangles, WwiseAcousticTexture acousticTexture, double transissionLossValue, Node gameObject, bool enableDiffraction, bool enableDiffractionOnBoundaryEdges) => 
 		Instance.Call(GDExtensionMethodName.SetGeometry, [vertices, triangles, acousticTexture, transissionLossValue, gameObject, enableDiffraction, enableDiffractionOnBoundaryEdges]).As<bool>();
 
-	public static  new bool RemoveGeometry(GodotObject gameObject) => 
+	public new static bool RemoveGeometry(GodotObject gameObject) => 
 		Instance.Call(GDExtensionMethodName.RemoveGeometry, [gameObject]).As<bool>();
 
-	public static  new bool SetGeometryInstance(GodotObject associatedGeometry, Transform3D transform, bool useForReflectionAndDiffraction, bool isSolid, bool bypassPortalSubtraction, GodotObject geometryInstance) => 
+	public new static bool SetGeometryInstance(GodotObject associatedGeometry, Transform3D transform, bool useForReflectionAndDiffraction, bool isSolid, bool bypassPortalSubtraction, GodotObject geometryInstance) => 
 		Instance.Call(GDExtensionMethodName.SetGeometryInstance, [associatedGeometry, transform, useForReflectionAndDiffraction, isSolid, bypassPortalSubtraction, geometryInstance]).As<bool>();
 
-	public static  new bool RemoveGeometryInstance(GodotObject geometryInstance) => 
+	public new static bool RemoveGeometryInstance(GodotObject geometryInstance) => 
 		Instance.Call(GDExtensionMethodName.RemoveGeometryInstance, [geometryInstance]).As<bool>();
 
-	public static  new bool RegisterSpatialListener(Node gameObject) => 
+	public new static bool RegisterSpatialListener(Node gameObject) => 
 		Instance.Call(GDExtensionMethodName.RegisterSpatialListener, [gameObject]).As<bool>();
 
-	public static  new bool SetRoom(Node gameObject, long auxBusId, double reverbLevel, double transmissionLoss, Vector3 frontVector, Vector3 upVector, bool keepRegistered, GodotObject associatedGeometry) => 
+	public new static bool SetRoom(Node gameObject, long auxBusId, double reverbLevel, double transmissionLoss, Vector3 frontVector, Vector3 upVector, bool keepRegistered, GodotObject associatedGeometry) => 
 		Instance.Call(GDExtensionMethodName.SetRoom, [gameObject, auxBusId, reverbLevel, transmissionLoss, frontVector, upVector, keepRegistered, associatedGeometry]).As<bool>();
 
-	public static  new bool RemoveRoom(Node gameObject) => 
+	public new static bool RemoveRoom(Node gameObject) => 
 		Instance.Call(GDExtensionMethodName.RemoveRoom, [gameObject]).As<bool>();
 
-	public static  new bool SetPortal(Node gameObject, Transform3D transform, Vector3 extent, Node frontRoom, Node backRoom, bool enabled) => 
+	public new static bool SetPortal(Node gameObject, Transform3D transform, Vector3 extent, Node frontRoom, Node backRoom, bool enabled) => 
 		Instance.Call(GDExtensionMethodName.SetPortal, [gameObject, transform, extent, frontRoom, backRoom, enabled]).As<bool>();
 
-	public static  new bool RemovePortal(Node gameObject) => 
+	public new static bool RemovePortal(Node gameObject) => 
 		Instance.Call(GDExtensionMethodName.RemovePortal, [gameObject]).As<bool>();
 
-	public static  new bool SetPortalObstructionAndOcclusion(Node portal, double obstructionValue, double occlusionValue) => 
+	public new static bool SetPortalObstructionAndOcclusion(Node portal, double obstructionValue, double occlusionValue) => 
 		Instance.Call(GDExtensionMethodName.SetPortalObstructionAndOcclusion, [portal, obstructionValue, occlusionValue]).As<bool>();
 
-	public static  new bool SetGameObjectToPortalObstruction(Node gameObject, Node portal, double obstructionValue) => 
+	public new static bool SetGameObjectToPortalObstruction(Node gameObject, Node portal, double obstructionValue) => 
 		Instance.Call(GDExtensionMethodName.SetGameObjectToPortalObstruction, [gameObject, portal, obstructionValue]).As<bool>();
 
-	public static  new bool SetPortalToPortalObstruction(Node portal0, Node portal1, double obstructionValue) => 
+	public new static bool SetPortalToPortalObstruction(Node portal0, Node portal1, double obstructionValue) => 
 		Instance.Call(GDExtensionMethodName.SetPortalToPortalObstruction, [portal0, portal1, obstructionValue]).As<bool>();
 
-	public static  new bool SetGameObjectInRoom(Node gameObject, Node room) => 
+	public new static bool SetGameObjectInRoom(Node gameObject, Node room) => 
 		Instance.Call(GDExtensionMethodName.SetGameObjectInRoom, [gameObject, room]).As<bool>();
 
-	public static  new bool RemoveGameObjectFromRoom(Node gameObject) => 
+	public new static bool RemoveGameObjectFromRoom(Node gameObject) => 
 		Instance.Call(GDExtensionMethodName.RemoveGameObjectFromRoom, [gameObject]).As<bool>();
 
-	public static  new bool SetEarlyReflectionsAuxSend(Node gameObject, long auxId) => 
+	public new static bool SetEarlyReflectionsAuxSend(Node gameObject, long auxId) => 
 		Instance.Call(GDExtensionMethodName.SetEarlyReflectionsAuxSend, [gameObject, auxId]).As<bool>();
 
-	public static  new bool SetEarlyReflectionsVolume(Node gameObject, double volume) => 
+	public new static bool SetEarlyReflectionsVolume(Node gameObject, double volume) => 
 		Instance.Call(GDExtensionMethodName.SetEarlyReflectionsVolume, [gameObject, volume]).As<bool>();
 
-	public static  new bool AddOutput(string shareSet, long outputId) => 
+	public new static bool AddOutput(string shareSet, long outputId) => 
 		Instance.Call(GDExtensionMethodName.AddOutput, [shareSet, outputId]).As<bool>();
 
-	public static  new bool RemoveOutput(long outputId) => 
+	public new static bool RemoveOutput(long outputId) => 
 		Instance.Call(GDExtensionMethodName.RemoveOutput, [outputId]).As<bool>();
 
-	public static  new bool Suspend(bool renderAnyway) => 
+	public new static bool Suspend(bool renderAnyway) => 
 		Instance.Call(GDExtensionMethodName.Suspend, [renderAnyway]).As<bool>();
 
-	public static  new bool WakeupFromSuspend() => 
+	public new static bool WakeupFromSuspend() => 
 		Instance.Call(GDExtensionMethodName.WakeupFromSuspend, []).As<bool>();
 
-	public static  new void StopAll(Node gameObject = null) => 
+	public new static void StopAll(Node gameObject = null) => 
 		Instance.Call(GDExtensionMethodName.StopAll, [gameObject]);
 
-	public static  new long GetSampleTick() => 
+	public new static long GetSampleTick() => 
 		Instance.Call(GDExtensionMethodName.GetSampleTick, []).As<long>();
 
-	public static  new long GetIdFromString(string @string) => 
+	public new static long GetIdFromString(string @string) => 
 		Instance.Call(GDExtensionMethodName.GetIdFromString, [@string]).As<long>();
 
-	public static  new bool IsInitialized() => 
+	public new static bool IsInitialized() => 
 		Instance.Call(GDExtensionMethodName.IsInitialized, []).As<bool>();
 
 }

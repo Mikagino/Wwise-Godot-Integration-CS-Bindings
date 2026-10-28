@@ -14,8 +14,6 @@ public partial class AkBank : Node
 
 	private new static readonly StringName NativeName = new StringName("AkBank");
 
-	protected AkBank() { }
-
 	private static CSharpScript _wrapperScriptAsset;
 
 	/// <summary>
@@ -59,11 +57,66 @@ public partial class AkBank : Node
 	/// <returns>The wrapper instance linked to the underlying GDExtension "AkBank" type.</returns>
 	public new static AkBank Instantiate() => Bind(ClassDB.Instantiate(NativeName).As<GodotObject>());
 
+	public new static class GDExtensionSignalName
+	{
+		public new static readonly StringName BankLoaded = "bank_loaded";
+		public new static readonly StringName BankUnloaded = "bank_unloaded";
+	}
+
+	public new delegate void BankLoadedSignalHandler(long bankId, long result);
+	private BankLoadedSignalHandler _bankLoadedSignal;
+	private Callable _bankLoadedSignalCallable;
+	public event BankLoadedSignalHandler BankLoadedSignal
+	{
+		add
+		{
+			if (_bankLoadedSignal is null)
+			{
+				_bankLoadedSignalCallable = Callable.From((Variant bankId, Variant result) => 
+					_bankLoadedSignal?.Invoke(bankId.As<long>(), result.As<long>()));
+				Connect(GDExtensionSignalName.BankLoaded, _bankLoadedSignalCallable);
+			}
+			_bankLoadedSignal += value;
+		}
+		remove
+		{
+			_bankLoadedSignal -= value;
+			if (_bankLoadedSignal is not null) return;
+			Disconnect(GDExtensionSignalName.BankLoaded, _bankLoadedSignalCallable);
+			_bankLoadedSignalCallable = default;
+		}
+	}
+
+	public new delegate void BankUnloadedSignalHandler(long bankId, long result);
+	private BankUnloadedSignalHandler _bankUnloadedSignal;
+	private Callable _bankUnloadedSignalCallable;
+	public event BankUnloadedSignalHandler BankUnloadedSignal
+	{
+		add
+		{
+			if (_bankUnloadedSignal is null)
+			{
+				_bankUnloadedSignalCallable = Callable.From((Variant bankId, Variant result) => 
+					_bankUnloadedSignal?.Invoke(bankId.As<long>(), result.As<long>()));
+				Connect(GDExtensionSignalName.BankUnloaded, _bankUnloadedSignalCallable);
+			}
+			_bankUnloadedSignal += value;
+		}
+		remove
+		{
+			_bankUnloadedSignal -= value;
+			if (_bankUnloadedSignal is not null) return;
+			Disconnect(GDExtensionSignalName.BankUnloaded, _bankUnloadedSignalCallable);
+			_bankUnloadedSignalCallable = default;
+		}
+	}
+
 	public new static class GDExtensionPropertyName
 	{
 		public new static readonly StringName Bank = "bank";
 		public new static readonly StringName LoadOn = "load_on";
 		public new static readonly StringName UnloadOn = "unload_on";
+		public new static readonly StringName AsyncLoad = "async_load";
 	}
 
 	public new WwiseBank Bank
@@ -82,6 +135,12 @@ public partial class AkBank : Node
 	{
 		get => Get(GDExtensionPropertyName.UnloadOn).As<Variant>();
 		set => Set(GDExtensionPropertyName.UnloadOn, value);
+	}
+
+	public new bool AsyncLoad
+	{
+		get => Get(GDExtensionPropertyName.AsyncLoad).As<bool>();
+		set => Set(GDExtensionPropertyName.AsyncLoad, value);
 	}
 
 	public new static class GDExtensionMethodName
