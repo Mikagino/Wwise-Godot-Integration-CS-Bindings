@@ -1,4 +1,4 @@
-[gd_resource type="WwiseProjectData" load_steps=42 format=3 uid="uid://bfnioqoq5gfmn"]
+[gd_resource type="WwiseProjectData" format=3 uid="uid://bfnioqoq5gfmn"]
 
 [sub_resource type="WwiseTreeObject" id="WwiseTreeObject_dn5s6"]
 path = "\\SoundBanks\\Default Work Unit\\AllSounds"

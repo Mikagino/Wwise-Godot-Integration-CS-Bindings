@@ -8,11 +8,15 @@
 
 config_version=5
 
+[animation]
+
+compatibility/default_parent_skeleton_in_mesh_instance_3d=true
+
 [application]
 
 config/name="wwise-godot-integration-cs-bindings"
 run/main_scene="uid://dl0l8mlcjmjfv"
-config/features=PackedStringArray("4.5", "C#", "Mobile")
+config/features=PackedStringArray("4.7", "C#", "Mobile")
 config/icon="res://icon.svg"
 
 [autoload]
@@ -25,7 +29,7 @@ project/assembly_name="wwise-godot-integration-cs-bindings"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/WwiseCSBindings/WwiseIdsConverter/plugin.cfg")
+enabled=PackedStringArray("res://addons/WwiseCSBindings/WwiseIdsConverter/plugin.cfg", "res://addons/csharp_wrapper_generator_for_gdextension/plugin.cfg")
 
 [rendering]
 
@@ -33,6 +37,6 @@ renderer/rendering_method="mobile"
 
 [wwise]
 
-common_user_settings/root_output_path="res://Wwise"
-project_settings/windows_platform_info="res://Wwise/resources/Windows.tres"
-project_settings/linux_platform_info="res://Wwise/resources/Linux.tres"
+output/panning_rule.android="Headphones"
+output/panning_rule.ios="Headphones"
+output/enable_auto_panning_rule.ios=true
